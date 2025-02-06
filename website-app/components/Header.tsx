@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header>
-      <div className="px-4 py-6 flex justify-end items-center bg-white dark:bg-gray-500 overflow-hidden">
+      <div className="px-4 py-6 flex justify-end items-center bg-gray-100 dark:bg-gray-500 overflow-hidden">
         {mounted && (
           theme === "dark" ? (
             <HiSun 
