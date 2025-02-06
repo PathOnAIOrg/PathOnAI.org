@@ -4,10 +4,10 @@ const Home = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-white dark:bg-gray-900 p-4">
       <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mb-4 text-black dark:text-white">
-        Welcome to PathOn.ai 👋
+        Welcome to PathOnAI.org 👋
       </h1>
       <p className="leading-7 mb-6 text-black dark:text-white max-w-3xl text-center">
-        PathOn.ai is an open-source non-profit AI research organization focused on advancing AI agent technology. Our mission is to democratize state-of-the-art AI methods, making them more accessible and easier to implement.
+        PathOnAI.org is an open-source non-profit AI research organization focused on advancing AI agent technology. Our mission is to democratize state-of-the-art AI methods, making them more accessible and easier to implement.
       </p>
       <p className="leading-7 mb-12 text-black dark:text-white max-w-2xl text-center">
         We provide a flexible framework that empowers developers to create their own AI agents efficiently.
