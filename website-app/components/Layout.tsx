@@ -10,7 +10,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Head>
-        <title>NextJS Project</title>
+        <title>PathOnAI.org</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
