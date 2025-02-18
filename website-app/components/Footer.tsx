@@ -13,7 +13,7 @@ const Footer = () => {
           © {new Date().getFullYear()}, Built by
           {` `}
           <a
-            href="https://github.com/PathOnAI-org"
+            href="https://github.com/PathOnAI"
             className="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-600"
           >
             PathOnAI.org
