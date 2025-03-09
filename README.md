@@ -1,1 +1,1 @@
-# PathOn-AI-website
+# PathOnAI.org website
