@@ -154,6 +154,30 @@ const Projects = () => {
             </ul>
           </CardContent>
         </Card>
+
+        <Card className="border-2 border-indigo-200 dark:border-indigo-900 shadow-lg hover:shadow-xl transition-shadow">
+          <CardContent className="p-6">
+            <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Research Philosophy</h2>
+            <ul className="text-black dark:text-white space-y-3">
+              <li className="flex items-start">
+                <span className="text-xl mr-2">🔍</span>
+                <span>Make user interfaces more intuitive for understanding and interpreting AI decision-making processes</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-xl mr-2">🧮</span>
+                <span>Formulate real-world applications into mathematical models to find optimal solutions</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-xl mr-2">🔄</span>
+                <span>Bridge the gap between academic research and production applications by raising the bar on code quality</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-xl mr-2">📊</span>
+                <span>Conduct detailed ablation studies to examine when and why approaches work better</span>
+              </li>
+            </ul>
+          </CardContent>
+        </Card>
       </div>
     </div>
   );
