@@ -7,7 +7,6 @@ import { DefaultSeo } from 'next-seo';
 import GoogleAnalytics from "../components/GoogleAnalytics";
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
-import CookieConsent from "../components/CookieConsent";
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -57,7 +56,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
-      <CookieConsent />
     </ThemeProvider>
   );
 }
