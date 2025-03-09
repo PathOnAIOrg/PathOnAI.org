@@ -1,16 +1,13 @@
 import { Card, CardContent } from "@/components/ui/card"
 
-const Home = () => {
+const Projects = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-white dark:bg-gray-900 p-4 pt-24">
+    <div className="min-h-screen flex flex-col items-center justify-start bg-white dark:bg-gray-900 p-4 pt-24">
       <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mb-4 text-black dark:text-white">
-        Welcome to PathOnAI.org 👋
+        Our Projects
       </h1>
-      <p className="leading-7 mb-6 text-black dark:text-white max-w-3xl text-center">
-        PathOnAI.org is an open-source non-profit AI research organization focused on advancing AI agent technology. Our mission is to democratize state-of-the-art AI methods, making them more accessible and easier to implement.
-      </p>
-      <p className="leading-7 mb-12 text-black dark:text-white max-w-2xl text-center">
-        We provide a flexible framework that empowers developers to create their own AI agents efficiently.
+      <p className="leading-7 mb-12 text-black dark:text-white max-w-3xl text-center">
+        Explore our current and past projects focused on advancing AI agent technology.
       </p>
       
       <div className="w-full max-w-4xl space-y-8">
@@ -58,4 +55,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Projects; 
