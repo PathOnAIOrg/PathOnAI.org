@@ -44,7 +44,7 @@ const Projects = () => {
               <li className="flex flex-col">
                 <div className="flex items-center">
                   <span className="text-xl mr-2">🌐</span>
-                  <span className="font-semibold text-lg">LiteWebAgentTreeSearch</span>
+                  <span className="font-semibold text-lg">Lite Web Agent Tree Search</span>
                   <a href="https://github.com/PathOnAI/LiteWebAgentTreeSearch" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
                     [GitHub]
                   </a>
