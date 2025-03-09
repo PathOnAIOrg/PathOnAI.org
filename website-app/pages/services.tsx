@@ -25,32 +25,17 @@ const Services = () => {
           </CardContent>
         </Card>
 
-        <Card className="border-2 border-yellow-200 dark:border-yellow-900 shadow-lg hover:shadow-xl transition-shadow">
+        <Card className="border-2 border-blue-200 dark:border-blue-900 shadow-lg hover:shadow-xl transition-shadow">
           <CardContent className="p-6">
-            <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Technical Consulting</h2>
+            <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Career Development</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Expert guidance on implementing AI agent technology in your organization.
+              We help community members advance their careers in AI and machine learning through personalized support.
             </p>
             <ul className="text-black dark:text-white space-y-2 list-disc pl-5">
-              <li>AI agent architecture design</li>
-              <li>Implementation strategy</li>
-              <li>Performance optimization</li>
-              <li>Custom agent development</li>
-            </ul>
-          </CardContent>
-        </Card>
-
-        <Card className="border-2 border-red-200 dark:border-red-900 shadow-lg hover:shadow-xl transition-shadow">
-          <CardContent className="p-6">
-            <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Educational Resources</h2>
-            <p className="text-gray-600 dark:text-gray-300 mb-4">
-              We provide educational materials to help developers understand and implement AI agent technology.
-            </p>
-            <ul className="text-black dark:text-white space-y-2 list-disc pl-5">
-              <li>Technical documentation</li>
-              <li>Tutorials and guides</li>
-              <li>Code examples</li>
-              <li>Best practices</li>
+              <li>Machine learning help sessions and graduate school application guidance via Zoom:<a href="https://calendly.com/danqingzhang/pathonai-org-office-hours" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                Schedule a session via Calendly
+                </a> </li>
+              <li>Connecting active community members with companies (two members recently joined an early-stage pre-seed AI startup as founding members)</li>
             </ul>
           </CardContent>
         </Card>

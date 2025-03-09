@@ -14,43 +14,20 @@ const Home = () => {
       </p>
       
       <div className="w-full max-w-4xl space-y-8">
-        <Card className="border-2 border-blue-200 dark:border-blue-900 shadow-lg hover:shadow-xl transition-shadow">
+        <Card className="border-2 border-purple-200 dark:border-purple-900 shadow-lg hover:shadow-xl transition-shadow">
           <CardContent className="p-6">
-            <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Current Projects</h2>
-            <ul className="text-black dark:text-white space-y-4">
-              <li className="flex items-start">
-                <span className="font-semibold mr-2">🤖 LiteGUIAgent:</span>
-                <span className="text-gray-600 dark:text-gray-300">A library for VLM-based computer control agent. To be released.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="font-semibold mr-2">🌐 LiteWebAgentTreeSearch:</span>
-                <span className="text-gray-600 dark:text-gray-300">To be released.</span>
-              </li>
-            </ul>
-          </CardContent>
-        </Card>
-
-        <Card className="border-2 border-green-200 dark:border-green-900 shadow-lg hover:shadow-xl transition-shadow">
-          <CardContent className="p-6">
-            <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Past Projects</h2>
-            <ul className="text-black dark:text-white space-y-4">
-              <li className="flex items-start">
-                <span className="font-semibold mr-2">👥 LiteMultiAgent:</span>
-                <span className="text-gray-600 dark:text-gray-300">A library for LLM-based multi-agent applications.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="font-semibold mr-2">🌍 LiteWebAgent:</span>
-                <span className="text-gray-600 dark:text-gray-300">A library for LLM-based web-agent applications.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="font-semibold mr-2">📚 Awesome AI Agents:</span>
-                <span className="text-gray-600 dark:text-gray-300">Collection of Materials on AI Agents.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="font-semibold mr-2">💻 Natural Language Terminal:</span>
-                <span className="text-gray-600 dark:text-gray-300">Takes a natural language command and directly calls into the OS.</span>
-              </li>
-            </ul>
+            <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Our Story</h2>
+            <div className="text-gray-700 dark:text-gray-300 space-y-4">
+              <p>
+                PathOnAI was founded in 2024 by a group of AI researchers and engineers passionate about making advanced AI agent technology accessible to everyone. We believe that by democratizing these technologies, we can accelerate innovation and create more equitable access to powerful AI tools.
+              </p>
+              <p>
+                Our team consists of researchers and contributors from various backgrounds, united by a common goal: to build open-source AI agent frameworks that are both powerful and easy to use. We collaborate with academic institutions, industry partners, and individual contributors worldwide.
+              </p>
+              <p>
+                Through our open-source projects, educational resources, and community engagement, we aim to lower the barriers to entry for AI agent development and foster a collaborative ecosystem where knowledge and innovations are freely shared.
+              </p>
+            </div>
           </CardContent>
         </Card>
       </div>
