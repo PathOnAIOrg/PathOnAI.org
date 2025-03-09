@@ -27,10 +27,7 @@ const Home = () => {
           Welcome to PathOnAI.org 👋
         </h1>
         <p className="leading-7 mb-6 text-black dark:text-white max-w-3xl text-center">
-          PathOnAI.org is an open-source non-profit AI research organization focused on advancing AI agent technology. Our mission is to democratize state-of-the-art AI methods, making them more accessible and easier to implement.
-        </p>
-        <p className="leading-7 mb-12 text-black dark:text-white max-w-2xl text-center">
-          We provide a flexible framework that empowers developers to create their own AI agents efficiently.
+        PathOnAI.org is an independent, non-profit organization with a mission to advance open-source development and AGI research through inclusive collaboration, mentorship, and community-driven innovation. We aim to make cutting-edge artificial general intelligence research accessible to all, fostering a diverse ecosystem where knowledge is freely shared.
         </p>
         
         <div className="w-full max-w-4xl space-y-8">

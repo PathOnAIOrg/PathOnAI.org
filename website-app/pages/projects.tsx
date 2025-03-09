@@ -7,7 +7,7 @@ const Projects = () => {
         Our Projects
       </h1>
       <p className="leading-7 mb-12 text-black dark:text-white max-w-3xl text-center">
-        Explore our current and past projects focused on advancing AI agent technology.
+        Explore our current and past projects dedicated to advancing open-source development and AGI research.
       </p>
       
       <div className="w-full max-w-4xl space-y-8">

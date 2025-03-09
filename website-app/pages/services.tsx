@@ -7,7 +7,7 @@ const Services = () => {
         Our Services
       </h1>
       <p className="leading-7 mb-12 text-black dark:text-white max-w-3xl text-center">
-        PathOnAI offers various services to help organizations leverage AI agent technology.
+      PathOnAI.org is an independent, non-profit organization with a mission to advance open-source development and AGI research through inclusive collaboration, mentorship, and community-driven innovation. We aim to make cutting-edge artificial general intelligence research accessible to all, fostering a diverse ecosystem where knowledge is freely shared.
       </p>
       
       <div className="w-full max-w-4xl space-y-8">
