@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pathonai.org/api/sitemap.xml 
