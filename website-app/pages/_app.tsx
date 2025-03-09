@@ -4,10 +4,31 @@ import type { AppProps } from "next/app";
 import Layout from "../components/Layout";
 import { ThemeProvider } from "next-themes";
 import { DefaultSeo } from 'next-seo';
+import GoogleAnalytics from "../components/GoogleAnalytics";
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
 export default function App({ Component, pageProps }: AppProps) {
+  const router = useRouter();
+  
+  useEffect(() => {
+    const handleRouteChange = (url: string) => {
+      if (typeof window !== 'undefined' && window.gtag) {
+        window.gtag('config', process.env.NEXT_PUBLIC_GA_ID!, {
+          page_path: url,
+        });
+      }
+    };
+
+    router.events.on('routeChangeComplete', handleRouteChange);
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange);
+    };
+  }, [router.events]);
+
   return (
     <ThemeProvider attribute="class">
+      <GoogleAnalytics />
       <DefaultSeo
         titleTemplate="%s | PathOnAI.org"
         defaultTitle="PathOnAI.org - Open-Source AI Agent Technology"
