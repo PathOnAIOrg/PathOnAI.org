@@ -7,6 +7,7 @@ const generateSiteMap = () => {
     '',
     '/projects',
     '/services',
+    '/privacy-policy',
     // Add other pages here
   ];
 
@@ -30,6 +31,10 @@ const generateSiteMap = () => {
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   res.setHeader('Content-Type', 'text/xml');
-  res.write(generateSiteMap());
+  res.setHeader('Cache-Control', 'public, s-maxage=1200, stale-while-revalidate=600');
+  
+  const sitemap = generateSiteMap();
+  
+  res.write(sitemap);
   res.end();
 } 
