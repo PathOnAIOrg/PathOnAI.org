@@ -40,7 +40,7 @@ export default function App({ Component, pageProps }: AppProps) {
           siteName: 'PathOnAI.org',
           images: [
             {
-              url: 'https://pathonai.org/og-image.png',
+              url: 'https://pathonai.org/pathonai_org.png',
               width: 1200,
               height: 630,
               alt: 'PathOnAI.org',

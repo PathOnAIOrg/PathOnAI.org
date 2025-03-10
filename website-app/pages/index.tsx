@@ -8,7 +8,7 @@ const Home = () => {
     "@type": "Organization",
     "name": "PathOnAI.org",
     "url": "https://pathonai.org",
-    "logo": "https://pathonai.org/logo.png",
+    "logo": "https://pathonai.org/pathonai_org.png",
     "description": "PathOnAI.org is an open-source non-profit AI research organization focused on advancing AI agent technology.",
     "sameAs": [
       "https://github.com/PathOnAI"

@@ -11,7 +11,7 @@ interface SEOProps {
 const SEO: React.FC<SEOProps> = ({
   title = "PathOnAI.org - Open-Source AI Agent Technology",
   description = "PathOnAI.org is an open-source non-profit AI research organization focused on advancing AI agent technology.",
-  ogImage = "/og-image.png",
+  ogImage = "/pathonai_org.png",
   ogType = "website",
 }) => {
   const router = useRouter();

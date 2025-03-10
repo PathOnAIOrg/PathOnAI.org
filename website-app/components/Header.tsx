@@ -23,7 +23,12 @@ const Header = () => {
     <header className="fixed w-full z-10">
       <div className="px-6 py-5 flex justify-between items-center bg-gray-100 dark:bg-gray-800 shadow-md">
         <div className="flex items-center">
-          <Link href="/" className="text-xl font-bold text-gray-900 dark:text-white mr-12">
+          <Link href="/" className="flex items-center text-xl font-bold text-gray-900 dark:text-white mr-12">
+            <img 
+              src="/pathonai_org.png" 
+              alt="PathOnAI Logo" 
+              className="h-8 w-auto mr-2" 
+            />
             PathOnAI
           </Link>
           <nav className="hidden md:flex space-x-8">

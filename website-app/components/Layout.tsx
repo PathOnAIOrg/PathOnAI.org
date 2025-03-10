@@ -22,7 +22,7 @@ const Layout: React.FC<LayoutProps> = ({
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/pathonai_org.png" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
