@@ -11,6 +11,30 @@ const Projects = () => {
       </p>
       
       <div className="w-full max-w-4xl space-y-8">
+        <Card className="border-2 border-indigo-200 dark:border-indigo-900 shadow-lg hover:shadow-xl transition-shadow">
+          <CardContent className="p-6">
+            <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Research Philosophy</h2>
+            <ul className="text-black dark:text-white space-y-3">
+              <li className="flex items-start">
+                <span className="text-xl mr-2">🔍</span>
+                <span>Make user interfaces more intuitive for understanding and interpreting AI decision-making processes</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-xl mr-2">🧮</span>
+                <span>Formulate real-world applications into mathematical models to find optimal solutions</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-xl mr-2">🔄</span>
+                <span>Bridge the gap between academic research and production applications by raising the bar on code quality</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-xl mr-2">📊</span>
+                <span>Conduct detailed ablation studies to examine when and why approaches work better</span>
+              </li>
+            </ul>
+          </CardContent>
+        </Card>
+
         <Card className="border-2 border-purple-200 dark:border-purple-900 shadow-lg hover:shadow-xl transition-shadow">
           <CardContent className="p-6">
             <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Publications</h2>
@@ -22,6 +46,22 @@ const Projects = () => {
                 </div>
                 <div className="text-gray-600 dark:text-gray-300">Danqing Zhang, Yuanli Wang, Shiying He, Jingyi Ni, Junyu Cao</div>
                 <div className="text-gray-600 dark:text-gray-300 italic">(Author list may be modified)</div>
+              </li>
+              <li className="flex flex-col">
+                <div className="flex items-center">
+                  <span className="font-semibold">Web Agent Evaluation Metrics</span>
+                  <span className="text-amber-600 dark:text-amber-400 ml-2">[work in progress]</span>
+                </div>
+                <div className="text-gray-600 dark:text-gray-300">Shiying He, Yaoyao Qian, Danqing Zhang, Yuanli Wang</div>
+                <div className="text-gray-600 dark:text-gray-300 italic">(Paper title and author list may be modified)</div>
+              </li>
+              <li className="flex flex-col">
+                <div className="flex items-center">
+                  <span className="font-semibold">3D Embodied Embodied Agent benchmark in Roblox Games</span>
+                  <span className="text-amber-600 dark:text-amber-400 ml-2">[work in progress]</span>
+                </div>
+                <div className="text-gray-600 dark:text-gray-300">Danqing Zhang, Zhuo Tao</div>
+                <div className="text-gray-600 dark:text-gray-300 italic">(Paper title and author list may be modified)</div>
               </li>
               <li className="flex flex-col">
                 <div className="flex items-center">
@@ -150,30 +190,6 @@ const Projects = () => {
                   </a>
                 </div>
                 <div className="text-gray-600 dark:text-gray-300 ml-7">Takes a natural language command and directly calls into the OS.</div>
-              </li>
-            </ul>
-          </CardContent>
-        </Card>
-
-        <Card className="border-2 border-indigo-200 dark:border-indigo-900 shadow-lg hover:shadow-xl transition-shadow">
-          <CardContent className="p-6">
-            <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Research Philosophy</h2>
-            <ul className="text-black dark:text-white space-y-3">
-              <li className="flex items-start">
-                <span className="text-xl mr-2">🔍</span>
-                <span>Make user interfaces more intuitive for understanding and interpreting AI decision-making processes</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-xl mr-2">🧮</span>
-                <span>Formulate real-world applications into mathematical models to find optimal solutions</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-xl mr-2">🔄</span>
-                <span>Bridge the gap between academic research and production applications by raising the bar on code quality</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-xl mr-2">📊</span>
-                <span>Conduct detailed ablation studies to examine when and why approaches work better</span>
               </li>
             </ul>
           </CardContent>
