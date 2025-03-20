@@ -44,7 +44,7 @@ const Projects = () => {
                   <span className="font-semibold">VisualTreeSearch: An Intuitive Interface for Understanding Web Agent Decision Processes</span>
                   <span className="text-amber-600 dark:text-amber-400 ml-2">[To be submitted]</span>
                 </div>
-                <div className="text-gray-600 dark:text-gray-300">Danqing Zhang, Yuanli Wang, Shiying He, Jingyi Ni, Junyu Cao</div>
+                <div className="text-gray-600 dark:text-gray-300">Danqing Zhang, Yuanli Wang, Shiying He, Yaoyao Qian, Jingyi Ni, Junyu Cao</div>
                 <div className="text-gray-600 dark:text-gray-300 italic">(Author list may be modified)</div>
               </li>
               <li className="flex flex-col">
