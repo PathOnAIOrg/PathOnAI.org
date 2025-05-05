@@ -188,58 +188,71 @@ const LiteWebAgent: NextPage = () => {
         </div>
       </section>
       
-      {/* Agent Framework */}
       <section className="container max-w-4xl mx-auto mb-12">
         <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Agent Framework</h2>
-        <div className="relative w-full h-[500px] mb-6">
-          <Image 
-            src="/images/projects/litewebagent/agent_workflow.png" 
-            alt="LiteWebAgent Agent Workflow" 
+        
+        <div className="relative w-full h-[400px] mb-6">
+            <Image
+            src="/images/projects/litewebagent/agent_workflow.png"
+            alt="LiteWebAgent Agent Workflow"
             fill
             className="object-contain"
-          />
+            />
         </div>
-        <div className="space-y-6">
-          <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-            <h3 className="text-xl font-semibold mb-2 text-black dark:text-white">Decoupled Action Generation and Grounding</h3>
-            <p className="text-gray-800 dark:text-gray-200">
-              LiteWebAgent decouples action generation from action grounding, allowing for greater flexibility
-              and precision in controlling the web interaction process. Action generation uses a VLM to produce
-              natural language actions via function calling or prompting, while action grounding transforms
-              these natural language instructions into executable Playwright code using webpage observations.
-            </p>
-          </div>
-          
-          <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-            <h3 className="text-xl font-semibold mb-2 text-black dark:text-white">Agent Planning</h3>
-            <p className="text-gray-800 dark:text-gray-200">
-              The framework supports various planning strategies, including basic function calling agents
-              that leverage the LLM&apos;s planning ability, high-level planning agents that replan based on
-              action execution trajectory, and context-aware high-level planning agents that incorporate
-              environment observations into the planning process.
-            </p>
-          </div>
-          
-          <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-            <h3 className="text-xl font-semibold mb-2 text-black dark:text-white">Agent Memory</h3>
-            <p className="text-gray-800 dark:text-gray-200">
-              LiteWebAgent incorporates Agent Workflow Memory (AWM) into both the initial plan generation
-              and replanning steps, allowing the agent to reference relevant workflows and past experiences
-              when executing tasks. This enables more effective task completion and error recovery.
-            </p>
-          </div>
-          
-          <div className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-            <h3 className="text-xl font-semibold mb-2 text-black dark:text-white">Tree Search Capabilities</h3>
-            <p className="text-gray-800 dark:text-gray-200">
-              The framework includes implementations of various search algorithms, including Breadth-First
-              Search (BFS), Depth-First Search (DFS), and Monte Carlo Tree Search (MCTS). These algorithms
-              enable the agent to explore multiple trajectories and balance exploitation with exploration
-              when navigating complex web environments.
-            </p>
-          </div>
+        
+        <div className="flex flex-col md:flex-row gap-6 mb-6">
+            {/* Left side - Algorithm image */}
+            <div className="md:w-1/2">
+            <div className="relative w-full h-[450px]">
+                <Image
+                src="/images/projects/litewebagent/algorithm.png"
+                alt="LiteWebAgent Agent Workflow Algorithm"
+                fill
+                className="object-contain"
+                />
+            </div>
+            </div>
+            
+            {/* Right side - Text descriptions */}
+            <div className="md:w-1/2 space-y-3">
+            <div className="p-3 border border-gray-200 dark:border-gray-700 rounded-lg">
+                <h3 className="text-lg font-semibold mb-1 text-black dark:text-white">Decoupled Action Generation and Grounding</h3>
+                <p className="text-sm text-gray-800 dark:text-gray-200">
+                LiteWebAgent separates action generation from grounding, enhancing control over web interactions. 
+                A VLM produces natural language actions via function calls, while grounding converts these into 
+                executable Playwright code using webpage observations.
+                </p>
+            </div>
+            
+            <div className="p-3 border border-gray-200 dark:border-gray-700 rounded-lg">
+                <h3 className="text-lg font-semibold mb-1 text-black dark:text-white">Agent Planning</h3>
+                <p className="text-sm text-gray-800 dark:text-gray-200">
+                Supports various strategies: function calling agents using LLM planning, high-level planning 
+                agents that replan based on execution trajectory, and context-aware planning agents that 
+                incorporate environment observations.
+                </p>
+            </div>
+            
+            <div className="p-3 border border-gray-200 dark:border-gray-700 rounded-lg">
+                <h3 className="text-lg font-semibold mb-1 text-black dark:text-white">Agent Memory</h3>
+                <p className="text-sm text-gray-800 dark:text-gray-200">
+                Incorporates Agent Workflow Memory (AWM) in planning and replanning, enabling the agent 
+                to reference relevant workflows and past experiences for more effective task completion 
+                and error recovery.
+                </p>
+            </div>
+            
+            <div className="p-3 border border-gray-200 dark:border-gray-700 rounded-lg">
+                <h3 className="text-lg font-semibold mb-1 text-black dark:text-white">Tree Search Capabilities</h3>
+                <p className="text-sm text-gray-800 dark:text-gray-200">
+                Implements various search algorithms (BFS, DFS, MCTS) that enable the agent to explore 
+                multiple trajectories and balance exploitation with exploration when navigating complex 
+                web environments.
+                </p>
+            </div>
+            </div>
         </div>
-      </section>
+        </section>
       
       {/* Deployed Systems */}
       <section className="container max-w-4xl mx-auto mb-12">
