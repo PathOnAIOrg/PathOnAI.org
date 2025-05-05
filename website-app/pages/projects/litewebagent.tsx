@@ -28,6 +28,17 @@ const LiteWebAgent: NextPage = () => {
             <p className="text-gray-600 dark:text-gray-300">
               PathOnAI.org, University of Texas at Austin
             </p>
+            <span className="text-amber-600 dark:text-amber-400 ml-2">
+              Published at{" "}
+              <a 
+                href="https://2025.naacl.org/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="underline hover:text-amber-700 dark:hover:text-amber-300 transition-colors"
+              >
+                NAACL 2025
+              </a>
+            </span>
           </div>
           
           <div className="flex flex-wrap justify-center gap-4 mb-8">
