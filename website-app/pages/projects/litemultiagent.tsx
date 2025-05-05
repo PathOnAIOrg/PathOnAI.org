@@ -23,10 +23,10 @@ const LiteMultiAgent: NextPage = () => {
           
           <div className="mb-6 text-gray-600 dark:text-gray-300">
             <p className="mb-2">
-              <span className="font-semibold">Authors:</span> Danqing Zhang, Balaji Rama, Shiying He, Jingyi Ni
+              <span className="font-semibold">Authors:</span> Danqing Zhang, Jingyi Ni
             </p>
             <p className="text-gray-600 dark:text-gray-300">
-              PathOnAI.org, University of Texas at Austin
+              PathOnAI.org
             </p>
           </div>
           
