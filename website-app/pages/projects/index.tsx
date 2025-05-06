@@ -197,14 +197,6 @@ const Projects = () => {
               </li>
               <li className="flex flex-col">
                 <div className="flex items-center">
-                  <span className="font-semibold">3D Embodied Embodied Agent benchmark in Roblox Games</span>
-                  <span className="text-amber-600 dark:text-amber-400 ml-2">[work in progress]</span>
-                </div>
-                <div className="text-gray-600 dark:text-gray-300">Danqing Zhang, Zhuo Tao</div>
-                <div className="text-gray-600 dark:text-gray-300 italic">(Paper title and author list may be modified)</div>
-              </li>
-              <li className="flex flex-col">
-                <div className="flex items-center">
                   <span className="font-semibold">LiteWebAgent: The Open-Source Suite for VLM-Based Web-Agent Applications</span>
                   <a href="https://arxiv.org/abs/2503.02950" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
                     [Paper]
