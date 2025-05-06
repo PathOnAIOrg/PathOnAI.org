@@ -7,8 +7,10 @@ const LiteWebAgent: NextPage = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-start bg-white dark:bg-gray-900 p-4 pt-24">
       <SEO 
-        title="LiteWebAgent - PathOnAI.org"
-        description="The Open-Source Suite for VLM-Based Web-Agent Applications"
+        title="LiteWebAgent - The Open-Source Suite for VLM-Based Web Agents | PathOnAI.org"
+        description="An open-source suite for VLM-based web agent applications featuring planning, memory, and tree search capabilities. Published at NAACL 2025."
+        ogImage="/images/projects/litewebagent/system_design.png"
+        ogType="website"
       />
       
       {/* Hero Section */}
@@ -80,8 +82,8 @@ const LiteWebAgent: NextPage = () => {
         </div>
       </section>
       
-      {/* Abstract Section */}
-      <section className="container max-w-4xl mx-auto mb-12">
+{/* Abstract Section */}
+<section className="container max-w-4xl mx-auto mb-12">
         <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Abstract</h2>
         <p className="text-gray-800 dark:text-gray-200 mb-4">
           We introduce LiteWebAgent, an open-source suite for VLM-based web agent applications. 

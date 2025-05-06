@@ -15,7 +15,13 @@ const SEO: React.FC<SEOProps> = ({
   ogType = "website",
 }) => {
   const router = useRouter();
-  const canonicalUrl = `https://pathonai.org${router.asPath === "/" ? "" : router.asPath}`;
+  const baseUrl = "https://pathonai.org";
+  const canonicalUrl = `${baseUrl}${router.asPath === "/" ? "" : router.asPath}`;
+  
+  // Convert relative image URLs to absolute URLs for og:image
+  const fullOgImageUrl = ogImage.startsWith('http') 
+    ? ogImage 
+    : `${baseUrl}${ogImage}`;
 
   return (
     <Head>
@@ -28,14 +34,14 @@ const SEO: React.FC<SEOProps> = ({
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content={ogImage} />
+      <meta property="og:image" content={fullOgImageUrl} />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content={canonicalUrl} />
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={description} />
-      <meta property="twitter:image" content={ogImage} />
+      <meta property="twitter:image" content={fullOgImageUrl} />
       
       {/* Canonical URL */}
       <link rel="canonical" href={canonicalUrl} />
@@ -43,4 +49,4 @@ const SEO: React.FC<SEOProps> = ({
   );
 };
 
-export default SEO; 
+export default SEO;
