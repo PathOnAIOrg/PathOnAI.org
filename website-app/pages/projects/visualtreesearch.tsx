@@ -9,6 +9,8 @@ const VisualTreeSearch: NextPage = () => {
       <SEO 
         title="VisualTreeSearch - PathOnAI.org"
         description="An Intuitive Interface for Understanding Web Agent Decision Processes"
+        ogImage="/images/projects/visualtreesearch/visualtreesearch-architecture.png"
+        ogType="website"
       />
       
       {/* Hero Section */}

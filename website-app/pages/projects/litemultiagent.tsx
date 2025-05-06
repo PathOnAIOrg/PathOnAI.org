@@ -9,6 +9,8 @@ const LiteMultiAgent: NextPage = () => {
       <SEO 
         title="LiteMultiAgent - PathOnAI.org"
         description="The Open-Source Hierarchical Multi-Agent Framework"
+        ogImage="/images/projects/litemultiagent/visualization.png"
+        ogType="website"
       />
       
       {/* Hero Section */}
