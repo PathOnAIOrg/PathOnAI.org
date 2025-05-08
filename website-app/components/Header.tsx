@@ -49,6 +49,14 @@ const Header = () => {
               Projects
             </Link>
             <Link 
+              href="/opportunities" 
+              className={`text-sm font-medium ${isActive('/opportunities') 
+                ? 'text-blue-600 dark:text-blue-400' 
+                : 'text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'}`}
+            >
+              Opportunities
+            </Link>
+            <Link 
               href="/services" 
               className={`text-sm font-medium ${isActive('/services') 
                 ? 'text-blue-600 dark:text-blue-400' 
