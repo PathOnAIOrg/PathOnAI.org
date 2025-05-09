@@ -60,7 +60,22 @@ const LiteWebAgent: NextPage = () => {
                   <path d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-8 6v-7.5l8-4.5 8 4.5v7.5l-8 4.5-8-4.5z"></path>
                 </svg>
               </span>
-              Paper
+              Arxiv
+            </Link>
+            <Link
+              href="https://aclanthology.org/2025.naacl-demo.36/"
+              className="inline-flex items-center px-4 py-2 bg-white border border-gray-300 rounded-md hover:bg-gray-100 transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="mr-2">
+                <svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="2" y="4" width="24" height="16" fill="#D32F2F"/>
+                  <rect x="7" y="9" width="8" height="4" fill="white"/>
+                  <rect x="2" y="2" width="6" height="4" fill="#D32F2F"/>
+                </svg>
+              </span>
+              <span className="font-semibold text-black">ACL Anthology</span>
             </Link>
             <Link href="https://lite-web-agent.pathonai.org/" className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors">
                 <span className="mr-2">
