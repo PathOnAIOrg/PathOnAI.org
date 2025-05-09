@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { Card, CardContent } from "@/components/ui/card";
 
 const projectData = [
   {
@@ -9,7 +10,6 @@ const projectData = [
     description: "An intuitive interface for understanding web agent decision processes. Visualize and understand how web agents make decisions as they navigate complex tasks.",
     path: "/projects/visualtreesearch",
     imagePath: "/images/projects/visualtreesearch/visualtreesearch-architecture.png",
-    borderColor: "border-blue-200 dark:border-blue-900"
   },
   {
     id: 2,
@@ -17,7 +17,6 @@ const projectData = [
     description: "An open-source suite for VLM-based web-agent applications. Build powerful web agents with vision-language models to automate web tasks.",
     path: "/projects/litewebagent",
     imagePath: "/images/projects/litewebagent/system_design.png",
-    borderColor: "border-green-200 dark:border-green-900"
   },
   {
     id: 3,
@@ -25,7 +24,6 @@ const projectData = [
     description: "LiteMultiAgent: The Library for LLM-based multi-agent applications.",
     path: "/projects/litemultiagent",
     imagePath: "/images/projects/litemultiagent/visualization.png",
-    borderColor: "border-green-200 dark:border-green-900"
   },
 ];
 
@@ -42,80 +40,77 @@ const FeaturedProjectsCarousel = () => {
   };
 
   return (
-    <div className="w-full max-w-4xl mb-16 mt-8">
-      <h2 className="text-2xl font-bold mb-6 text-black dark:text-white border-b pb-2">
-        Featured Projects
-      </h2>
-      <div className="relative overflow-hidden rounded-xl shadow-lg">
-        {/* Navigation Controls */}
-        <div className="absolute inset-y-0 left-0 flex items-center z-30">
-          <button
-            onClick={goToPrevious}
-            className="h-full px-4 bg-black/20 hover:bg-black/40 transition-colors focus:outline-none"
-            aria-label="Previous project"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
-        </div>
-        <div className="absolute inset-y-0 right-0 flex items-center z-30">
-          <button
-            onClick={goToNext}
-            className="h-full px-4 bg-black/20 hover:bg-black/40 transition-colors focus:outline-none"
-            aria-label="Next project"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
-        </div>
-        {/* Project Carousel */}
-        <div className="w-full">
-          <div className="w-full">
-            <div className="relative aspect-[16/9] w-full bg-gray-200 dark:bg-gray-700">
-              {/* Fallback if Image fails */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-4xl font-bold text-gray-400">{projectData[currentIndex].title[0]}</div>
-              </div>
-              <Image
-                src={projectData[currentIndex].imagePath}
-                alt={projectData[currentIndex].title}
-                fill
-                className="object-cover z-10"
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.style.display = 'none';
-                }}
-              />
-              {/* Navigation Instruction Overlay */}
-              <div className="absolute inset-x-0 top-4 flex justify-center pointer-events-none z-30">
-                <div className="bg-black/60 text-white text-xs px-3 py-1 rounded-full flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
-                  </svg>
-                  Use arrows to navigate
-                </div>
-              </div>
-              {/* Overlay with content */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6 z-20">
-                <h3 className="text-2xl font-bold text-white mb-2">{projectData[currentIndex].title}</h3>
-                <p className="text-white/90 mb-4">{projectData[currentIndex].description}</p>
-                <Link 
-                  href={projectData[currentIndex].path}
-                  className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors w-fit"
-                >
-                  Learn More
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                  </svg>
-                </Link>
-              </div>
+    <Card className="w-full max-w-4xl mb-16 mt-8">
+      <CardContent className="p-0">
+        <h2 className="text-2xl font-bold px-6 pt-6 mb-4 text-black dark:text-white border-b pb-2">
+          Featured Projects
+        </h2>
+
+        {/* Image container with reserved height via padding-top */}
+        <div className="relative w-full pt-[56.25%]"> {/* 16:9 aspect ratio */}
+          <Image
+            src={projectData[currentIndex].imagePath}
+            alt={projectData[currentIndex].title}
+            fill
+            className="absolute inset-0 object-cover rounded-t-xl"
+            priority
+          />
+
+          {/* Gradient overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
+
+          {/* Arrows */}
+          <div className="absolute inset-y-0 left-0 flex items-center z-20">
+            <button
+              onClick={goToPrevious}
+              className="h-full px-4 bg-black/20 hover:bg-black/40 transition-colors"
+              aria-label="Previous project"
+            >
+              <svg className="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+          </div>
+          <div className="absolute inset-y-0 right-0 flex items-center z-20">
+            <button
+              onClick={goToNext}
+              className="h-full px-4 bg-black/20 hover:bg-black/40 transition-colors"
+              aria-label="Next project"
+            >
+              <svg className="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+
+          {/* Navigation hint */}
+          <div className="absolute inset-x-0 top-4 flex justify-center pointer-events-none z-20">
+            <div className="bg-black/60 text-white text-xs px-3 py-1 rounded-full flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+              </svg>
+              Use arrows to navigate
             </div>
           </div>
         </div>
-        {/* Pagination Indicators */}
-        <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2">
+
+        {/* Text and button content */}
+        <div className="bg-black text-white px-6 pb-6 pt-4">
+          <h3 className="text-2xl font-bold mb-2">{projectData[currentIndex].title}</h3>
+          <p className="text-white/90 mb-4">{projectData[currentIndex].description}</p>
+          <Link 
+            href={projectData[currentIndex].path}
+            className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors w-fit"
+          >
+            Learn More
+            <svg className="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </Link>
+        </div>
+
+        {/* Pagination */}
+        <div className="mt-4 mb-6 flex justify-center gap-2">
           {projectData.map((_, index) => (
             <button
               key={index}
@@ -127,9 +122,9 @@ const FeaturedProjectsCarousel = () => {
             ></button>
           ))}
         </div>
-      </div>
-    </div>
+      </CardContent>
+    </Card>
   );
 };
 
-export default FeaturedProjectsCarousel; 
+export default FeaturedProjectsCarousel;
