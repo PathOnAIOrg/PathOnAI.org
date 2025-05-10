@@ -114,7 +114,7 @@ const Home = () => {
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Kunyu Chen</p>
-                    <p className="text-sm">Full Stack Developer</p>
+                    <p className="text-sm">Frontend Developer</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Fu Zhao</p>
