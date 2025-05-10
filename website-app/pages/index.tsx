@@ -90,6 +90,10 @@ const Home = () => {
                     <p className="text-sm">Contributor</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Jinda Zhang</p>
+                    <p className="text-sm">Contributor</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Manpreet Singh</p>
                     <p className="text-sm">Member</p>
                   </div>
