@@ -47,6 +47,79 @@ const Home = () => {
               </div>
             </CardContent>
           </Card>
+
+          {/* New Members & Alumni Card */}
+          <Card className="border-2 border-purple-200 dark:border-purple-900 shadow-lg hover:shadow-xl transition-shadow">
+            <CardContent className="p-6">
+              <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Members & Alumni</h2>
+              
+              {/* Current Members */}
+              <div className="mb-6">
+                <h3 className="text-xl font-semibold mb-3 text-black dark:text-white">Current Members</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Danqing Zhang</p>
+                    <p className="text-sm">Founder</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Yaoyao Qian</p>
+                    <p className="text-sm">Researcher</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Shiying He</p>
+                    <p className="text-sm">Researcher</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Yuanli Wang</p>
+                    <p className="text-sm">Researcher</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Junyu Cao</p>
+                    <p className="text-sm">Collaborator</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Jingyi Ni</p>
+                    <p className="text-sm">Researcher</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Arnold Chen</p>
+                    <p className="text-sm">Contributor</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Andrew Liang</p>
+                    <p className="text-sm">Contributor</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Manpreet Singh</p>
+                    <p className="text-sm">Member</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Yusha Arif</p>
+                    <p className="text-sm">Member</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Alumni */}
+              <div>
+                <h3 className="text-xl font-semibold mb-3 text-black dark:text-white">Alumni</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Balaji Rama</p>
+                    <p className="text-sm">Full Stack Developer</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Kunyu Chen</p>
+                    <p className="text-sm">Full Stack Developer</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Fu Zhao</p>
+                    <p className="text-sm">Researcher</p>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </>
