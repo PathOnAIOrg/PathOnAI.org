@@ -48,14 +48,14 @@ const Home = () => {
             </CardContent>
           </Card>
 
-          {/* Team Section: Founders, Researchers & Collaborators, Contributors, Members, Alumni */}
+          {/* Team Section */}
           <Card className="border-2 border-purple-200 dark:border-purple-900 shadow-lg hover:shadow-xl transition-shadow">
             <CardContent className="p-6">
               <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Team</h2>
               
               {/* Founders */}
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-black dark:text-white">Founders</h3>
+                <h3 className="text-xl font-semibold mb-3 text-purple-700 dark:text-purple-300">Founders</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Danqing Zhang</p>
@@ -66,7 +66,7 @@ const Home = () => {
 
               {/* Researchers & Collaborators */}
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-black dark:text-white">Researchers & Collaborators</h3>
+                <h3 className="text-xl font-semibold mb-3 text-purple-700 dark:text-purple-300">Researchers & Collaborators</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Yaoyao Qian</p>
@@ -93,7 +93,7 @@ const Home = () => {
 
               {/* Contributors */}
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-black dark:text-white">Contributors</h3>
+                <h3 className="text-xl font-semibold mb-3 text-purple-700 dark:text-purple-300">Contributors</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Arnold Chen</p>
@@ -112,7 +112,7 @@ const Home = () => {
 
               {/* Members */}
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-black dark:text-white">Members</h3>
+                <h3 className="text-xl font-semibold mb-3 text-purple-700 dark:text-purple-300">Members</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Manpreet Singh</p>
@@ -135,7 +135,7 @@ const Home = () => {
 
               {/* Alumni */}
               <div>
-                <h3 className="text-xl font-semibold mb-3 text-black dark:text-white">Alumni</h3>
+                <h3 className="text-xl font-semibold mb-3 text-purple-700 dark:text-purple-300">Alumni</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Balaji Rama</p>
