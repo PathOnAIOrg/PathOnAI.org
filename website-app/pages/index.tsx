@@ -48,19 +48,26 @@ const Home = () => {
             </CardContent>
           </Card>
 
-          {/* New Members & Alumni Card */}
+          {/* Team Section: Founders, Researchers & Collaborators, Contributors, Members, Alumni */}
           <Card className="border-2 border-purple-200 dark:border-purple-900 shadow-lg hover:shadow-xl transition-shadow">
             <CardContent className="p-6">
-              <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Members & Alumni</h2>
+              <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Team</h2>
               
-              {/* Current Members */}
+              {/* Founders */}
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-black dark:text-white">Current Members</h3>
+                <h3 className="text-xl font-semibold mb-3 text-black dark:text-white">Founders</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Danqing Zhang</p>
                     <p className="text-sm">Founder</p>
                   </div>
+                </div>
+              </div>
+
+              {/* Researchers & Collaborators */}
+              <div className="mb-6">
+                <h3 className="text-xl font-semibold mb-3 text-black dark:text-white">Researchers & Collaborators</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Yaoyao Qian</p>
                     <p className="text-sm">Researcher</p>
@@ -74,13 +81,20 @@ const Home = () => {
                     <p className="text-sm">Researcher</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Junyu Cao</p>
-                    <p className="text-sm">Collaborator</p>
-                  </div>
-                  <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Jingyi Ni</p>
                     <p className="text-sm">Researcher</p>
                   </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Junyu Cao</p>
+                    <p className="text-sm">Collaborator</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Contributors */}
+              <div className="mb-6">
+                <h3 className="text-xl font-semibold mb-3 text-black dark:text-white">Contributors</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Arnold Chen</p>
                     <p className="text-sm">Contributor</p>
@@ -93,12 +107,27 @@ const Home = () => {
                     <p className="font-semibold">Jinda Zhang</p>
                     <p className="text-sm">Contributor</p>
                   </div>
+                </div>
+              </div>
+
+              {/* Members */}
+              <div className="mb-6">
+                <h3 className="text-xl font-semibold mb-3 text-black dark:text-white">Members</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Manpreet Singh</p>
                     <p className="text-sm">Member</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Yusha Arif</p>
+                    <p className="text-sm">Member</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Mostofa Shakib</p>
+                    <p className="text-sm">Member</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Riely(Yun) Zong</p>
                     <p className="text-sm">Member</p>
                   </div>
                 </div>
