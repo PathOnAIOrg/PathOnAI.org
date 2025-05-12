@@ -14,29 +14,6 @@ const Projects = () => {
       <FeaturedProjectsCarousel />
 
       <div className="w-full max-w-4xl space-y-8">
-        <Card className="border-2 border-indigo-200 dark:border-indigo-900 shadow-lg hover:shadow-xl transition-shadow">
-          <CardContent className="p-6">
-            <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Research Philosophy</h2>
-            <ul className="text-black dark:text-white space-y-3">
-              <li className="flex items-start">
-                <span className="text-xl mr-2">🔍</span>
-                <span>Make user interfaces more intuitive for understanding and interpreting AI decision-making processes</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-xl mr-2">🧮</span>
-                <span>Formulate real-world applications into mathematical models to find optimal solutions</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-xl mr-2">🔄</span>
-                <span>Bridge the gap between academic research and production applications by raising the bar on code quality</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-xl mr-2">📊</span>
-                <span>Conduct detailed ablation studies to examine when and why approaches work better</span>
-              </li>
-            </ul>
-          </CardContent>
-        </Card>
 
         <Card className="border-2 border-purple-200 dark:border-purple-900 shadow-lg hover:shadow-xl transition-shadow">
           <CardContent className="p-6">
@@ -60,6 +37,14 @@ const Projects = () => {
               </li>
               <li className="flex flex-col">
                 <div className="flex items-center">
+                  <span className="font-semibold">Tutorial on Landing Generative AI in Industrial Social and E-commerce Recsys</span>
+                  <span className="text-amber-600 dark:text-amber-400 ml-2">[coming soon]</span>
+                </div>
+                <div className="text-gray-600 dark:text-gray-300">Da Xu, Danqing Zhang, Chuanwei Ruan, Lingling Zheng, Bo Yang, Guangyu Yang, Shuyuan Xu and Haixun Wang</div>
+                <div className="text-gray-600 dark:text-gray-300 italic">WWW&apos;25: The Web Conference Tutorial</div>
+              </li>
+              <li className="flex flex-col">
+                <div className="flex items-center">
                   <span className="font-semibold">LiteWebAgent: The Open-Source Suite for VLM-Based Web-Agent Applications</span>
                   <a href="https://arxiv.org/abs/2503.02950" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
                     [Paper]
@@ -67,6 +52,50 @@ const Projects = () => {
                 </div>
                 <div className="text-gray-600 dark:text-gray-300">Danqing Zhang, Balaji Rama, Jingyi Ni, Shiying He, Fu Zhao, Kunyu Chen, Arnold Chen, Junyu Cao</div>
                 <div className="text-gray-600 dark:text-gray-300 italic">NAACL&apos;25: 2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics -- System Demonstration Track</div>
+              </li>
+              <li className="flex flex-col">
+                <div className="flex items-center">
+                  <span className="font-semibold">Landing Generative AI in Industrial Social and E-commerce Recsys</span>
+                  <a href="https://dl.acm.org/doi/10.1145/3627673.3679099" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                    [Paper]
+                  </a>
+                </div>
+                <div className="text-gray-600 dark:text-gray-300">Da Xu, Danqing Zhang, Lingling Zheng, Bo Yang, Guangyu Yang, Shuyuan Xu, Cindy Liang</div>
+                <div className="text-gray-600 dark:text-gray-300 italic">CIKM&apos;24: The Conference on Information and Knowledge Management (CIKM) Tutorial</div>
+              </li>
+              <li className="flex flex-col">
+                <div className="flex items-center">
+                  <span className="font-semibold">Survey for Landing Generative AI in Social and E-commerce Recsys -- the Industry Perspectives</span>
+                  <a href="https://arxiv.org/abs/2503.02950" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                    [Paper]
+                  </a>
+                </div>
+                <div className="text-gray-600 dark:text-gray-300">Da Xu, Danqing Zhang, Guangyu Yang, Bo Yang, Shuyuan Xu, Lingling Zheng, Cindy Liang</div>
+                <div className="text-gray-600 dark:text-gray-300 italic">KDD GenAIRecP&apos;25: Knowledge Discovery and Data Mining (KDD) Generative AI for Recommender Systems and Personalization Workshop, 2024</div>
+              </li>
+            </ul>
+          </CardContent>
+        </Card>
+
+        <Card className="border-2 border-indigo-200 dark:border-indigo-900 shadow-lg hover:shadow-xl transition-shadow">
+          <CardContent className="p-6">
+            <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Research Philosophy</h2>
+            <ul className="text-black dark:text-white space-y-3">
+              <li className="flex items-start">
+                <span className="text-xl mr-2">🔍</span>
+                <span>Make user interfaces more intuitive for understanding and interpreting AI decision-making processes</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-xl mr-2">🧮</span>
+                <span>Formulate real-world applications into mathematical models to find optimal solutions</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-xl mr-2">🔄</span>
+                <span>Bridge the gap between academic research and production applications by raising the bar on code quality</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-xl mr-2">📊</span>
+                <span>Conduct detailed ablation studies to examine when and why approaches work better</span>
               </li>
             </ul>
           </CardContent>
