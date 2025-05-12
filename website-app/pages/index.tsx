@@ -58,7 +58,15 @@ const Home = () => {
                 <h3 className="text-xl font-semibold mb-3 text-purple-700 dark:text-purple-300">Founders</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Danqing Zhang</p>
+                    <p className="font-semibold">
+                      <a
+                        href="https://danqingz.github.io/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Danqing Zhang
+                      </a>
+                    </p>
                     <p className="text-sm">Founder</p>
                   </div>
                 </div>
