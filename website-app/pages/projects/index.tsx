@@ -72,7 +72,7 @@ const Projects = () => {
               <li className="flex flex-col">
                 <div className="flex items-center">
                   <span className="font-semibold">LiteWebAgent: The Open-Source Suite for VLM-Based Web-Agent Applications</span>
-                  <a href="https://arxiv.org/abs/2503.02950" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                  <a href="https://aclanthology.org/2025.naacl-demo.36/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
                     [Paper]
                   </a>
                 </div>
