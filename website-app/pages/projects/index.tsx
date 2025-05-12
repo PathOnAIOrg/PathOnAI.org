@@ -39,6 +39,17 @@ const Projects = () => {
               </li>
               <li className="flex flex-col">
                 <div className="flex items-center">
+                  <span className="font-semibold">LiteMultiAgent: A Multi-Agent Framework for LLM-Based Applications</span>
+                  <span className="text-amber-600 dark:text-amber-400 ml-2">[work in progress]</span>
+                </div>
+                <div className="text-gray-600 dark:text-gray-300">
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Danqing Zhang</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Jingyi Ni</span>, 
+                </div>
+                <div className="text-gray-600 dark:text-gray-300 italic">(Paper title and author list may be modified)</div>
+              </li>
+              <li className="flex flex-col">
+                <div className="flex items-center">
                   <span className="font-semibold">Web Agent Evaluation Metrics</span>
                   <span className="text-amber-600 dark:text-amber-400 ml-2">[work in progress]</span>
                 </div>
@@ -133,12 +144,21 @@ const Projects = () => {
                 <div className="flex items-center">
                   <span className="text-xl mr-2">🌐</span>
                   <span className="font-semibold text-lg">Lite Web Agent Tree Search</span>
-                  <a href="https://github.com/PathOnAI/LiteWebAgentTreeSearch" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                  <a href="https://github.com/PathOnAI/LWATS" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
                     [GitHub]
                   </a>
                 </div>
                 <div className="text-gray-600 dark:text-gray-300 ml-7">
                   Enhancing web agents with tree search algorithms for improved decision-making and task completion.
+                </div>
+              </li>
+              <li className="flex flex-col">
+                <div className="flex items-center">
+                  <span className="text-xl mr-2">🧠</span>
+                  <span className="font-semibold text-lg">Generative Agent Based Simulation</span>
+                </div>
+                <div className="text-gray-600 dark:text-gray-300 ml-7">
+                  Creating realistic multi-agent simulations powered by LLMs to model complex social interactions and emergent behaviors in virtual environments.
                 </div>
               </li>
             </ul>
