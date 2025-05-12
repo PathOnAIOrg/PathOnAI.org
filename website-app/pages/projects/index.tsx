@@ -18,13 +18,23 @@ const Projects = () => {
         <Card className="border-2 border-purple-200 dark:border-purple-900 shadow-lg hover:shadow-xl transition-shadow">
           <CardContent className="p-6">
             <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Publications</h2>
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              <span className="text-purple-700 dark:text-purple-400 font-semibold">Purple text</span> indicates authors affiliated with PathOnAI.org.
+            </p>
             <ul className="text-black dark:text-white space-y-4">
               <li className="flex flex-col">
                 <div className="flex items-center">
                   <span className="font-semibold">VisualTreeSearch: Understanding Web Agent Test-time Scaling</span>
                   <span className="text-amber-600 dark:text-amber-400 ml-2">[in submission]</span>
                 </div>
-                <div className="text-gray-600 dark:text-gray-300">Danqing Zhang, Yaoyao Qian, Shiying He, Yuanli Wang, Jingyi Ni, Junyu Cao</div>
+                <div className="text-gray-600 dark:text-gray-300">
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold">Danqing Zhang</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Yaoyao Qian</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Shiying He</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Yuanli Wang</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Jingyi Ni</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Junyu Cao</span>
+                </div>
                 <div className="text-gray-600 dark:text-gray-300 italic">(Author list may be modified)</div>
               </li>
               <li className="flex flex-col">
@@ -32,7 +42,12 @@ const Projects = () => {
                   <span className="font-semibold">Web Agent Evaluation Metrics</span>
                   <span className="text-amber-600 dark:text-amber-400 ml-2">[work in progress]</span>
                 </div>
-                <div className="text-gray-600 dark:text-gray-300">Shiying He, Yaoyao Qian, Danqing Zhang, Yuanli Wang</div>
+                <div className="text-gray-600 dark:text-gray-300">
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold">Shiying He</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Yaoyao Qian</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Danqing Zhang</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Yuanli Wang</span>
+                </div>
                 <div className="text-gray-600 dark:text-gray-300 italic">(Paper title and author list may be modified)</div>
               </li>
               <li className="flex flex-col">
@@ -40,7 +55,7 @@ const Projects = () => {
                   <span className="font-semibold">Tutorial on Landing Generative AI in Industrial Social and E-commerce Recsys</span>
                   <span className="text-amber-600 dark:text-amber-400 ml-2">[coming soon]</span>
                 </div>
-                <div className="text-gray-600 dark:text-gray-300">Da Xu, Danqing Zhang, Chuanwei Ruan, Lingling Zheng, Bo Yang, Guangyu Yang, Shuyuan Xu and Haixun Wang</div>
+                <div className="text-gray-600 dark:text-gray-300">Da Xu, <span className="text-purple-700 dark:text-purple-400 font-semibold">Danqing Zhang</span>, Chuanwei Ruan, Lingling Zheng, Bo Yang, Guangyu Yang, Shuyuan Xu and Haixun Wang</div>
                 <div className="text-gray-600 dark:text-gray-300 italic">WWW&apos;25: The Web Conference Tutorial</div>
               </li>
               <li className="flex flex-col">
@@ -50,7 +65,16 @@ const Projects = () => {
                     [Paper]
                   </a>
                 </div>
-                <div className="text-gray-600 dark:text-gray-300">Danqing Zhang, Balaji Rama, Jingyi Ni, Shiying He, Fu Zhao, Kunyu Chen, Arnold Chen, Junyu Cao</div>
+                <div className="text-gray-600 dark:text-gray-300">
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold">Danqing Zhang</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Balaji Rama</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Jingyi Ni</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Shiying He</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Fu Zhao</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Kunyu Chen</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Arnold Chen</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Junyu Cao</span>
+                </div>
                 <div className="text-gray-600 dark:text-gray-300 italic">NAACL&apos;25: 2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics -- System Demonstration Track</div>
               </li>
               <li className="flex flex-col">
@@ -60,7 +84,7 @@ const Projects = () => {
                     [Paper]
                   </a>
                 </div>
-                <div className="text-gray-600 dark:text-gray-300">Da Xu, Danqing Zhang, Lingling Zheng, Bo Yang, Guangyu Yang, Shuyuan Xu, Cindy Liang</div>
+                <div className="text-gray-600 dark:text-gray-300">Da Xu, <span className="text-purple-700 dark:text-purple-400 font-semibold">Danqing Zhang</span>, Lingling Zheng, Bo Yang, Guangyu Yang, Shuyuan Xu, Cindy Liang</div>
                 <div className="text-gray-600 dark:text-gray-300 italic">CIKM&apos;24: The Conference on Information and Knowledge Management (CIKM) Tutorial</div>
               </li>
               <li className="flex flex-col">
@@ -70,7 +94,7 @@ const Projects = () => {
                     [Paper]
                   </a>
                 </div>
-                <div className="text-gray-600 dark:text-gray-300">Da Xu, Danqing Zhang, Guangyu Yang, Bo Yang, Shuyuan Xu, Lingling Zheng, Cindy Liang</div>
+                <div className="text-gray-600 dark:text-gray-300">Da Xu, <span className="text-purple-700 dark:text-purple-400 font-semibold">Danqing Zhang</span>, Guangyu Yang, Bo Yang, Shuyuan Xu, Lingling Zheng, Cindy Liang</div>
                 <div className="text-gray-600 dark:text-gray-300 italic">KDD GenAIRecP&apos;25: Knowledge Discovery and Data Mining (KDD) Generative AI for Recommender Systems and Personalization Workshop, 2024</div>
               </li>
             </ul>
