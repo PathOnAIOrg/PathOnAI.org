@@ -64,7 +64,9 @@ const Projects = () => {
               <li className="flex flex-col">
                 <div className="flex items-center">
                   <span className="font-semibold">Tutorial on Landing Generative AI in Industrial Social and E-commerce Recsys</span>
-                  <span className="text-amber-600 dark:text-amber-400 ml-2">[coming soon]</span>
+                  <a href="https://dl.acm.org/doi/10.1145/3701716.3715871" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                    [Paper]
+                  </a>
                 </div>
                 <div className="text-gray-600 dark:text-gray-300">Da Xu, <span className="text-purple-700 dark:text-purple-400 font-semibold">Danqing Zhang</span>, Chuanwei Ruan, Lingling Zheng, Bo Yang, Guangyu Yang, Shuyuan Xu and Haixun Wang</div>
                 <div className="text-gray-600 dark:text-gray-300 italic">WWW&apos;25: The Web Conference Tutorial</div>
@@ -90,7 +92,7 @@ const Projects = () => {
               </li>
               <li className="flex flex-col">
                 <div className="flex items-center">
-                  <span className="font-semibold">Landing Generative AI in Industrial Social and E-commerce Recsys</span>
+                  <span className="font-semibold">Tutorial on Landing Generative AI in Industrial Social and E-commerce Recsys</span>
                   <a href="https://dl.acm.org/doi/10.1145/3627673.3679099" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
                     [Paper]
                   </a>
