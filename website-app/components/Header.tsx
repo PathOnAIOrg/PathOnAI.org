@@ -70,7 +70,7 @@ const Header = () => {
           {/* Social Media Links */}
           <div className="hidden md:flex items-center space-x-5 mr-6">
             <a
-              href="https://github.com/PathOnAI"
+              href="https://github.com/PathOnAIOrg"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400"
@@ -183,7 +183,7 @@ const Header = () => {
             {/* Social Media Links in Mobile Menu */}
             <div className="flex items-center space-x-5 px-3 py-2">
               <a
-                href="https://github.com/PathOnAI"
+                href="https://github.com/PathOnAIOrg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400"
