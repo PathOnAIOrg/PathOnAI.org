@@ -25,7 +25,7 @@ const VisualTreeSearch: NextPage = () => {
           
           <div className="mb-6 text-gray-600 dark:text-gray-300">
             <p className="mb-2">
-              <span className="font-semibold">Authors:</span> Danqing Zhang, Yuanli Wang, Shiying He, Yaoyao Qian, Jingyi Ni, Junyu Cao
+              <span className="font-semibold">Authors:</span> Danqing Zhang, Yaoyao Qian, Shiying He, Yuanli Wang, Jingyi Ni, Junyu Cao
             </p>
             <p className="text-gray-600 dark:text-gray-300">
               PathOnAI.org, Northeastern University, Boston University, The University of Texas at Austin
