@@ -77,7 +77,15 @@ const Home = () => {
                 <h3 className="text-xl font-semibold mb-3 text-purple-700 dark:text-purple-300">Researchers & Collaborators</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Yaoyao Qian</p>
+                    <p className="font-semibold">
+                      <a
+                        href="https://h-freax.github.io/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                      Yaoyao Qian
+                      </a>
+                      </p>
                     <p className="text-sm">Researcher</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
