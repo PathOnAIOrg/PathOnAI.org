@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import SEO from "@/components/SEO"
 import JsonLd from '@/components/JsonLd'
+import Link from "next/link"
 
 const Home = () => {
   const organizationSchema = {
@@ -44,6 +45,42 @@ const Home = () => {
                 <p>
                   Through our open-source projects, educational resources, and community engagement, we aim to lower the barriers to entry for AI agent development and foster a collaborative ecosystem where knowledge and innovations are freely shared.
                 </p>
+              </div>
+            </CardContent>
+          </Card>
+
+        {/* Get Involved */}
+        <Card className="border-2 border-red-200 dark:border-red-900 shadow-lg hover:shadow-xl transition-shadow">
+            <CardContent className="p-6">
+              <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Get Involved</h2>
+              <div className="text-gray-700 dark:text-gray-300 space-y-4">
+                <p>
+                  Interested in contributing to our open source research? We welcome collaborators from all backgrounds - whether you&apos;re a researcher, student, or industry professional passionate about AI.
+                </p>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
+                  <Link 
+                    href="/opportunities" 
+                    className="inline-flex items-center justify-center px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition-colors text-center"
+                  >
+                    View Opportunities
+                  </Link>
+                  <a 
+                    href="https://github.com/PathOnAIOrg" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-gray-800 transition-colors text-center"
+                  >
+                    Explore Our Code
+                  </a>
+                  <a 
+                    href="https://discord.com/invite/UTxjyNwTeP" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors text-center"
+                  >
+                    Join Our Discord
+                  </a>
+                </div>
               </div>
             </CardContent>
           </Card>
@@ -185,6 +222,8 @@ const Home = () => {
               </div>
             </CardContent>
           </Card>
+
+                    
         </div>
       </div>
     </>

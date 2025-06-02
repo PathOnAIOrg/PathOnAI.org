@@ -46,7 +46,15 @@ const Header = () => {
                 ? 'text-blue-600 dark:text-blue-400' 
                 : 'text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'}`}
             >
-              Projects
+              AI Agents Projects
+            </Link>
+            <Link 
+              href="/robotics" 
+              className={`text-sm font-medium ${isActive('/robotics') 
+                ? 'text-blue-600 dark:text-blue-400' 
+                : 'text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'}`}
+            >
+              Robotics & Embodied AI Projects
             </Link>
             <Link 
               href="/opportunities" 

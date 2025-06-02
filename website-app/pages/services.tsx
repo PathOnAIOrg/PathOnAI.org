@@ -39,6 +39,41 @@ const Services = () => {
             </ul>
           </CardContent>
         </Card>
+
+        <Card className="border-2 border-orange-200 dark:border-orange-900 shadow-lg hover:shadow-xl transition-shadow">
+          <CardContent className="p-6">
+            <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Hardware & Equipment Access</h2>
+            <p className="text-gray-600 dark:text-gray-300 mb-4">
+              We provide hands-on access to robotics hardware and tools for learning and experimentation.
+            </p>
+            <div className="text-gray-700 dark:text-gray-300 mb-4">
+              <p className="font-semibold text-purple-700 dark:text-purple-400">
+                📍 Available at Burlingame Library Easton Branch<br />
+                1800 Easton Dr, Burlingame, CA 94010
+              </p>
+            </div>
+            <ul className="text-black dark:text-white space-y-2 list-disc pl-5">
+              <li>
+                <strong>Bambu Lab A1 3D Printer</strong> - For prototyping robot parts and custom components
+                <a href="https://us.store.bambulab.com/products/a1?srsltid=AfmBOopMF1hLY9DWxxR4p2VoS9DRDnBCPqLyoxLGXLXrxJ-ghAiZ7Hfg" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                  [Product Page]
+                </a>
+              </li>
+              <li>
+                <strong>SO-ARM100 Robot Arm</strong> - Low-cost, open-source robotic arm for learning manipulation tasks
+                <a href="https://github.com/TheRobotStudio/SO-ARM100" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                  [GitHub]
+                </a>
+              </li>
+              <li>
+                <strong>LeKiwi Mobile Manipulator</strong> - Mobile robot platform for embodied AI experiments
+                <a href="https://github.com/SIGRobotics-UIUC/LeKiwi" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                  [GitHub]
+                </a>
+              </li>
+            </ul>
+          </CardContent>
+        </Card>
       </div>
     </div>
   );
