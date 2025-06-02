@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-start bg-white dark:bg-gray-900 p-4 pt-24">
       <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mb-4 text-black dark:text-white">
-        Our Projects
+        Our AI Agents Projects
       </h1>
       <p className="leading-7 mb-12 text-black dark:text-white max-w-3xl text-center">
         Explore our current and past projects dedicated to advancing open-source development and AGI research.
