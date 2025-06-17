@@ -49,6 +49,52 @@ const Home = () => {
             </CardContent>
           </Card>
 
+          {/* News Section */}
+          <Card className="border-2 border-amber-200 dark:border-amber-900 shadow-lg hover:shadow-xl transition-shadow">
+            <CardContent className="p-6">
+              <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Latest News</h2>
+              <ul className="text-black dark:text-white space-y-4">
+                <li className="flex flex-col">
+                  <div className="flex items-center">
+                    <span className="text-sm font-medium text-gray-500 dark:text-gray-400 mr-3">06/16/2025</span>
+                    <span className="font-semibold">&quot;VisualTreeSearch: Understanding Web Agent Test-time Scaling&quot; was accepted by ECML-PKDD 2025.</span>
+                  </div>
+                </li>
+                <li className="flex flex-col">
+                  <div className="flex items-center">
+                    <span className="text-sm font-medium text-gray-500 dark:text-gray-400 mr-3">06/15/2025</span>
+                    <span className="font-semibold">Won the 2025 SF Bay Area LeRobot Hackathon.</span>
+                  </div>
+                </li>
+                <li className="flex flex-col">
+                  <div className="flex items-center">
+                    <span className="text-sm font-medium text-gray-500 dark:text-gray-400 mr-3">02/28/2025</span>
+                    <span className="font-semibold">&quot;LiteWebAgent: The Open-Source Suite for VLM-Based Web-Agent Applications&quot; was accepted by 2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics -- System Demonstration Track (NAACL 2025).</span>
+                  </div>
+                </li>
+                <li className="flex flex-col">
+                  <div className="flex items-center">
+                    <span className="text-sm font-medium text-gray-500 dark:text-gray-400 mr-3">12/05/2024</span>
+                    <span className="font-semibold">&quot;Tutorial on Landing Generative AI in Industrial Social and E-commerce Recsys&quot; was accepted by WWW 2025.</span>
+                  </div>
+                </li>
+                <li className="flex flex-col">
+                  <div className="flex items-center">
+                    <span className="text-sm font-medium text-gray-500 dark:text-gray-400 mr-3">07/05/2024</span>
+                    <span className="font-semibold">Tutorial &quot;Landing Generative AI in Industrial Social and E-commerce Recsys&quot; was accepted by CIKM 2024.</span>
+                  </div>
+                </li>
+                <li className="flex flex-col">
+                  <div className="flex items-center">
+                    <span className="text-sm font-medium text-gray-500 dark:text-gray-400 mr-3">07/01/2024</span>
+                    <span className="font-semibold">Paper &quot;Survey for Tutorial on Landing GAI in Social and E-commerce Recsys – the Industry Perspectives&quot; was accepted by KDD GenAIRecP 2024.</span>
+                  </div>
+                </li>
+                {/* Add more news items here as they become available */}
+              </ul>
+            </CardContent>
+          </Card>
+
         {/* Get Involved */}
         <Card className="border-2 border-red-200 dark:border-red-900 shadow-lg hover:shadow-xl transition-shadow">
             <CardContent className="p-6">

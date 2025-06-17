@@ -49,28 +49,6 @@ const Robotics = () => {
             </CardContent>
           </Card>
 
-          {/* Current Projects */}
-          <Card className="border-2 border-blue-200 dark:border-blue-900 shadow-lg hover:shadow-xl transition-shadow">
-            <CardContent className="p-6">
-              <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Current Projects</h2>
-              <ul className="text-black dark:text-white space-y-4">
-                <li className="flex flex-col">
-                  <div className="flex items-center">
-                    <span className="text-xl mr-2">🎮</span>
-                    <span className="font-semibold text-lg">Awesome LeRobot</span>
-                    <a href="https://github.com/TataKKKL/awesome-lerobot" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
-                      [GitHub]
-                    </a>
-                  </div>
-                  <div className="text-gray-600 dark:text-gray-300 ml-7">
-                    Curate the know where and know how to understand and use low cost robots like so-arm100 and Lekiwi.
-                  </div>
-                </li>
-              </ul>
-            </CardContent>
-          </Card>
-
-
 
           {/* Hardware & Tools */}
           <Card className="border-2 border-orange-200 dark:border-orange-900 shadow-lg hover:shadow-xl transition-shadow">
