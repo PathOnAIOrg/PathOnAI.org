@@ -184,6 +184,14 @@ const Home = () => {
                     <p className="text-sm">Researcher</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Riely(Yun) Zong</p>
+                    <p className="text-sm">Researcher</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Jinda Zhang</p>
+                    <p className="text-sm">Researcher</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Junyu Cao</p>
                     <p className="text-sm">Collaborator</p>
                   </div>
@@ -200,14 +208,6 @@ const Home = () => {
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Andrew Liang</p>
-                    <p className="text-sm">Contributor</p>
-                  </div>
-                  <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Jinda Zhang</p>
-                    <p className="text-sm">Contributor</p>
-                  </div>
-                  <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Riely(Yun) Zong</p>
                     <p className="text-sm">Contributor</p>
                   </div>
                 </div>
