@@ -199,6 +199,10 @@ const Home = () => {
                     <p className="font-semibold">Aayush Gupta</p>
                     <p className="text-sm">Member</p>
                   </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Nazifa Mouli</p>
+                    <p className="text-sm">Member</p>
+                  </div>
                 </div>
               </div>
 

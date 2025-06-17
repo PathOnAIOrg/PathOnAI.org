@@ -25,7 +25,7 @@ const Projects = () => {
               <li className="flex flex-col">
                 <div className="flex items-center">
                   <span className="font-semibold">VisualTreeSearch: Understanding Web Agent Test-time Scaling</span>
-                  <a href="https://www.researchgate.net/publication/391739859_VisualTreeSearch_Understanding_Web_Agent_Test-time_Scaling" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                  <a href="https://www.researchgate.net/profile/Danqing-Zhang/publication/391739859_VisualTreeSearch_Understanding_Web_Agent_Test-time_Scaling/links/6825449bdf0e3f544f54797b/VisualTreeSearch-Understanding-Web-Agent-Test-time-Scaling.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
                     [Paper]
                   </a>
                 </div>
@@ -37,6 +37,7 @@ const Projects = () => {
                   <span className="text-purple-700 dark:text-purple-400 font-semibold"> Jingyi Ni</span>, 
                   <span className="text-purple-700 dark:text-purple-400 font-semibold"> Junyu Cao</span>
                 </div>
+                <div className="text-gray-600 dark:text-gray-300 italic">ECML-PKDD&apos;25: 2025 European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases Demo Track</div>
               </li>
               <li className="flex flex-col">
                 <div className="flex items-center">
