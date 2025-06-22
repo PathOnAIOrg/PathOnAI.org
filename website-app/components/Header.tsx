@@ -167,7 +167,16 @@ const Header = () => {
                 : 'text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-blue-400'}`}
               onClick={() => setMobileMenuOpen(false)}
             >
-              Projects
+              AI Agents Projects
+            </Link>
+            <Link 
+              href="/robotics" 
+              className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/robotics') 
+                ? 'text-blue-600 dark:text-blue-400 bg-gray-200 dark:bg-gray-700' 
+                : 'text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-blue-400'}`}
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Robotics & Embodied AI Projects
             </Link>
             <Link 
               href="/opportunities" 
