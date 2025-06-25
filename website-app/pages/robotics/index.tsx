@@ -67,6 +67,18 @@ const Robotics = () => {
                 <li className="flex flex-col">
                   <div className="flex items-center">
                     <span className="text-xl mr-2">🖨️</span>
+                    <span className="font-semibold text-lg">Bambu Lab P1S 3D Printer</span>
+                    <a href="https://us.store.bambulab.com/products/p1s?from=navigation&id=583855874739507208" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                      [Product Page]
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-300 ml-7">
+                    Professional-grade enclosed 3D printer with multi-color capability (up to 16 colors with AMS), perfect for prototyping robot parts and complex components.
+                  </div>
+                </li>
+                <li className="flex flex-col">
+                  <div className="flex items-center">
+                    <span className="text-xl mr-2">🖨️</span>
                     <span className="font-semibold text-lg">Bambu Lab A1 3D Printer</span>
                     <a href="https://us.store.bambulab.com/products/a1?srsltid=AfmBOopMF1hLY9DWxxR4p2VoS9DRDnBCPqLyoxLGXLXrxJ-ghAiZ7Hfg" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
                       [Product Page]
