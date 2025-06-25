@@ -113,6 +113,16 @@ const Robotics = () => {
                   </div>
                 </li>
               </ul>
+              <div className="mt-6 text-center">
+                <a 
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdfJsHlU44ozciuyHnlvO6hHdetvFOOkPFW6AbGYKrj3XgQZQ/viewform" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-6 py-3 bg-orange-600 text-white rounded-md hover:bg-orange-700 transition-colors text-lg font-medium"
+                >
+                  🖨️ Sign Up for 3D Printing
+                </a>
+              </div>
             </CardContent>
           </Card>
 
