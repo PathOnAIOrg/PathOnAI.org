@@ -63,6 +63,7 @@ const Robotics = () => {
                   1800 Easton Dr, Burlingame, CA 94010
                 </p>
               </div>
+              
               <ul className="text-black dark:text-white space-y-4">
                 <li className="flex flex-col">
                   <div className="flex items-center">
@@ -122,6 +123,17 @@ const Robotics = () => {
                 >
                   🖨️ Sign Up for 3D Printing
                 </a>
+              </div>
+              
+              {/* 3D Printing Service Policy */}
+              <div className="mt-6 p-4 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg">
+                <h3 className="text-lg font-semibold mb-3 text-blue-800 dark:text-blue-300">3D Printing Service Policy</h3>
+                <ul className="text-sm text-blue-700 dark:text-blue-300 space-y-2">
+                  <li>• We provide assistance for individual replacement parts only</li>
+                  <li>• Complete product sets or commercially available collections will not be printed</li>
+                  <li>• Our service is intended to help repair existing items, not produce entire product lines</li>
+                  <li>• Each request will be evaluated to ensure compliance with intellectual property rights and our non-commercial mission</li>
+                </ul>
               </div>
             </CardContent>
           </Card>
