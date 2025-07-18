@@ -155,9 +155,9 @@ const Home = () => {
                 </div>
               </div>
 
-              {/* Researchers & Collaborators */}
+              {/* Project Leads */}
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-purple-700 dark:text-purple-300">Researchers & Collaborators</h3>
+                <h3 className="text-xl font-semibold mb-3 text-purple-700 dark:text-purple-300">Project Leads</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">
@@ -166,15 +166,18 @@ const Home = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                      Yaoyao Qian
+                        Yaoyao Qian
                       </a>
-                      </p>
-                    <p className="text-sm">Researcher</p>
+                    </p>
+                    <p className="text-sm">Project Lead</p>
                   </div>
-                  <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Shiying He</p>
-                    <p className="text-sm">Researcher</p>
-                  </div>
+                </div>
+              </div>
+
+              {/* Researchers & Collaborators */}
+              <div className="mb-6">
+                <h3 className="text-xl font-semibold mb-3 text-purple-700 dark:text-purple-300">Researchers & Collaborators</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Yuanli Wang</p>
                     <p className="text-sm">Researcher</p>
@@ -208,6 +211,14 @@ const Home = () => {
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Andrew Liang</p>
+                    <p className="text-sm">Contributor</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Jiaxun Hao</p>
+                    <p className="text-sm">Contributor</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Zixun Zhang</p>
                     <p className="text-sm">Contributor</p>
                   </div>
                 </div>
@@ -266,6 +277,10 @@ const Home = () => {
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Fu Zhao</p>
+                    <p className="text-sm">Researcher</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Shiying He</p>
                     <p className="text-sm">Researcher</p>
                   </div>
                 </div>
