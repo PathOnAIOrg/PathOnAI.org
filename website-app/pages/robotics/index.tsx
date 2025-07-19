@@ -59,7 +59,7 @@ const Robotics = () => {
                   We provide access to robotics hardware and tools for people interested in getting hands-on experience with robotics and embodied AI. Whether you&apos;re a beginner or experienced researcher, you can try out our equipment.
                 </p>
                 <p className="font-semibold text-purple-700 dark:text-purple-400">
-                  📍 Meet us at Burlingame Library Easton Branch<br />
+                  📍 Meet us near Burlingame Library Easton Branch<br />
                   1800 Easton Dr, Burlingame, CA 94010
                 </p>
               </div>
@@ -133,6 +133,7 @@ const Robotics = () => {
                   <li>• Complete product sets or commercially available collections will not be printed</li>
                   <li>• Our service is intended to help repair existing items, not produce entire product lines</li>
                   <li>• Each request will be evaluated to ensure compliance with intellectual property rights and our non-commercial mission</li>
+                  <li>• Each community member is limited to &lt;30g per month</li>
                 </ul>
               </div>
             </CardContent>
