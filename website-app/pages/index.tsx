@@ -169,7 +169,7 @@ const Home = () => {
                         Yaoyao Qian
                       </a>
                     </p>
-                    <p className="text-sm">Project Lead</p>
+                    <p className="text-sm">President</p>
                   </div>
                 </div>
               </div>
@@ -179,7 +179,15 @@ const Home = () => {
                 <h3 className="text-xl font-semibold mb-3 text-purple-700 dark:text-purple-300">Researchers & Collaborators</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Yuanli Wang</p>
+                    <p className="font-semibold">
+                      <a
+                        href="https://pentium3.github.io/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Yuanli Wang
+                      </a>
+                    </p>
                     <p className="text-sm">Researcher</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
@@ -187,7 +195,15 @@ const Home = () => {
                     <p className="text-sm">Researcher</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Jindan Huang</p>
+                    <p className="font-semibold">
+                      <a
+                        href="https://jindanh.github.io/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Jindan Huang
+                      </a>
+                    </p>
                     <p className="text-sm">Researcher</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
@@ -195,7 +211,15 @@ const Home = () => {
                     <p className="text-sm">Researcher</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Jinda Zhang</p>
+                    <p className="font-semibold">
+                      <a
+                        href="https://jindaxz.github.io/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Jinda Zhang
+                      </a>
+                    </p>
                     <p className="text-sm">Researcher</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
