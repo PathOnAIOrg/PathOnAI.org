@@ -157,7 +157,7 @@ const Home = () => {
 
               {/* Project Leads */}
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-purple-700 dark:text-purple-300">Project Leads</h3>
+                <h3 className="text-xl font-semibold mb-3 text-purple-700 dark:text-purple-300">President</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">
@@ -187,12 +187,24 @@ const Home = () => {
                     <p className="text-sm">Researcher</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Jindan Huang</p>
+                    <p className="text-sm">Researcher</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Riely(Yun) Zong</p>
                     <p className="text-sm">Researcher</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Jinda Zhang</p>
                     <p className="text-sm">Researcher</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Meixu Chen</p>
+                    <p className="text-sm">Collaborator</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Yifan Zeng</p>
+                    <p className="text-sm">Collaborator</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Junyu Cao</p>
