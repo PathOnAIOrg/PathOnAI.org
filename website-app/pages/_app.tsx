@@ -31,7 +31,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <GoogleAnalytics />
       <DefaultSeo
         titleTemplate="%s | PathOnAI.org"
-        defaultTitle="PathOnAI.org - Open-Source AI Agent Technology"
+        defaultTitle="Open-Source Robotics + AI Agent Technology"
         description="PathOnAI.org is an open-source non-profit AI research organization focused on advancing AI agent technology."
         openGraph={{
           type: 'website',
