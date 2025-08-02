@@ -56,6 +56,12 @@ const Home = () => {
               <ul className="text-black dark:text-white space-y-4">
                 <li className="flex flex-col">
                   <div className="flex items-center">
+                    <span className="text-sm font-medium text-gray-500 dark:text-gray-400 mr-3">08/01/2025</span>
+                    <span className="font-semibold">PathOnAI.org is officially a 501(c)(3) nonprofit organization.</span>
+                  </div>
+                </li>
+                <li className="flex flex-col">
+                  <div className="flex items-center">
                     <span className="text-sm font-medium text-gray-500 dark:text-gray-400 mr-3">06/16/2025</span>
                     <span className="font-semibold">&quot;VisualTreeSearch: Understanding Web Agent Test-time Scaling&quot; was accepted by ECML-PKDD 2025.</span>
                   </div>
