@@ -40,12 +40,12 @@ const Services = () => {
                 <HiArrowRight className="text-gray-400" />
               </h2>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                Hands-on experience with robotic platforms for embodied AI research and learning.
+                Access to various robotic platforms for hands-on learning and research.
               </p>
               <ul className="text-gray-500 dark:text-gray-400 space-y-1 text-sm">
                 <li>• SO-ARM100 & SO-ARM101 Robot Arms</li>
-                <li>• Open-source robotic platforms</li>
-                <li>• Hands-on AI research</li>
+                <li>• LeKiwi Mobile Manipulator</li>
+                <li>• TurtleBot 4 & ROS2 Platforms</li>
               </ul>
             </CardContent>
           </Card>
