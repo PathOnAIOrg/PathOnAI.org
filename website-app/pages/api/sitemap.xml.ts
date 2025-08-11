@@ -8,6 +8,7 @@ const generateSiteMap = () => {
     '/projects',
     '/services',
     '/privacy-policy',
+    '/services/professional-development',
     // Add other pages here
   ];
 
