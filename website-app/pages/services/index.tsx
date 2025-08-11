@@ -55,16 +55,16 @@ const Services = () => {
           <Card className="border-2 border-orange-200 dark:border-orange-900 shadow-lg hover:shadow-xl transition-all hover:scale-105 cursor-pointer h-full">
             <CardContent className="p-6">
               <h2 className="text-2xl font-bold mb-4 text-black dark:text-white flex items-center justify-between">
-                Hardware & Equipment Access
+                3D Printing Services
                 <HiArrowRight className="text-gray-400" />
               </h2>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                3D printing, electronics lab, and development boards for prototyping and experimentation.
+                Advanced 3D printing services for rapid prototyping and custom part manufacturing.
               </p>
               <ul className="text-gray-500 dark:text-gray-400 space-y-1 text-sm">
-                <li>• Bambu Lab P1S & A1 3D Printers</li>
-                <li>• Electronics lab equipment</li>
-                <li>• Development boards & tools</li>
+                <li>• Bambu Lab P1S 3D Printer</li>
+                <li>• Bambu Lab A1 3D Printer</li>
+                <li>• Multi-material printing capabilities</li>
               </ul>
             </CardContent>
           </Card>
