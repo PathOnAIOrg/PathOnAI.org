@@ -110,6 +110,32 @@ const RobotAccess = () => {
                     Compact servo-based arm for desktop robotics experiments.
                   </div>
                 </li>
+                <li className="flex flex-col">
+                  <div className="flex items-center">
+                    <span className="text-xl mr-2">🦾</span>
+                    <span className="font-semibold text-lg">Elephant Robotics myCobot 280 Pi 2023</span>
+                    <a href="https://shop.elephantrobotics.com/collections/mycobot-280/products/holiday-mycobot-pi-raspberry-pi-powered-6-dof-collaborative-robot" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                      [Shop]
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-300 ml-7">
+                    6-DOF collaborative robot powered by Raspberry Pi 4B (64-bit 1.5GHz 4-Core). Supports Python, C++, C#, Arduino, and ROS. 
+                    All-in-one suite includes AI kit, adaptive gripper, and multiple bases. Perfect for education, research, and embodied AI development 
+                    with capabilities for object recognition, image sorting, and face tracking.
+                  </div>
+                </li>
+                <li className="flex flex-col">
+                  <div className="flex items-center">
+                    <span className="text-xl mr-2">🚶</span>
+                    <span className="font-semibold text-lg">Hightorque Bipedal Robot Mini π</span>
+                    <a href="https://store.hightorque.cn/products/bipedal-robot-mini-%CF%80" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                      [Store]
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-300 ml-7">
+                    Advanced bipedal robot platform for walking gait research and humanoid robotics development.
+                  </div>
+                </li>
               </ul>
             </CardContent>
           </Card>
