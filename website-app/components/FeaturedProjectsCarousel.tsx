@@ -8,21 +8,21 @@ const projectData = [
     id: 1,
     title: "VisualTreeSearch",
     description: "An intuitive interface for understanding web agent decision processes. Visualize and understand how web agents make decisions as they navigate complex tasks.",
-    path: "/projects/visualtreesearch",
+    path: "/ai-agent-projects/visualtreesearch",
     imagePath: "/images/projects/visualtreesearch/visualtreesearch-architecture.png",
   },
   {
     id: 2,
     title: "LiteWebAgent",
     description: "An open-source suite for VLM-based web-agent applications. Build powerful web agents with vision-language models to automate web tasks.",
-    path: "/projects/litewebagent",
+    path: "/ai-agent-projects/litewebagent",
     imagePath: "/images/projects/litewebagent/system_design.png",
   },
   {
     id: 3,
     title: "LiteMultiAgent",
     description: "LiteMultiAgent: The Library for LLM-based multi-agent applications.",
-    path: "/projects/litemultiagent",
+    path: "/ai-agent-projects/litemultiagent",
     imagePath: "/images/projects/litemultiagent/visualization.png",
   }
 ];

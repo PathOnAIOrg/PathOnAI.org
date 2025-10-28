@@ -60,10 +60,10 @@ const Header = () => {
             >
               Home
             </Link>
-            <Link 
-              href="/projects" 
-              className={`text-sm font-medium ${isActive('/projects') 
-                ? 'text-blue-600 dark:text-blue-400' 
+            <Link
+              href="/ai-agent-projects"
+              className={`text-sm font-medium ${isActive('/ai-agent-projects')
+                ? 'text-blue-600 dark:text-blue-400'
                 : 'text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'}`}
             >
               AI Agents Projects
@@ -224,10 +224,10 @@ const Header = () => {
             >
               Home
             </Link>
-            <Link 
-              href="/projects" 
-              className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/projects') 
-                ? 'text-blue-600 dark:text-blue-400 bg-gray-200 dark:bg-gray-700' 
+            <Link
+              href="/ai-agent-projects"
+              className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/ai-agent-projects')
+                ? 'text-blue-600 dark:text-blue-400 bg-gray-200 dark:bg-gray-700'
                 : 'text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 hover:text-blue-600 dark:hover:text-blue-400'}`}
               onClick={() => setMobileMenuOpen(false)}
             >
