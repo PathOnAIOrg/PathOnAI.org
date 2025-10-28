@@ -57,30 +57,6 @@ const Projects = () => {
               </li>
               <li className="flex flex-col">
                 <div className="flex items-center">
-                  <span className="font-semibold">LiteMultiAgent: A Multi-Agent Framework for LLM-Based Applications</span>
-                  <span className="text-amber-600 dark:text-amber-400 ml-2">[work in progress]</span>
-                </div>
-                <div className="text-gray-600 dark:text-gray-300">
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Danqing Zhang</span>, 
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Jingyi Ni</span>, 
-                </div>
-                <div className="text-gray-600 dark:text-gray-300 italic">(Paper title and author list may be modified)</div>
-              </li>
-              <li className="flex flex-col">
-                <div className="flex items-center">
-                  <span className="font-semibold">Web Agent Evaluation Metrics</span>
-                  <span className="text-amber-600 dark:text-amber-400 ml-2">[work in progress]</span>
-                </div>
-                <div className="text-gray-600 dark:text-gray-300">
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold">Shiying He</span>, 
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Yaoyao Qian</span>, 
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Danqing Zhang</span>, 
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Yuanli Wang</span>
-                </div>
-                <div className="text-gray-600 dark:text-gray-300 italic">(Paper title and author list may be modified)</div>
-              </li>
-              <li className="flex flex-col">
-                <div className="flex items-center">
                   <span className="font-semibold">Tutorial on Landing Generative AI in Industrial Social and E-commerce Recsys</span>
                   <a href="https://dl.acm.org/doi/10.1145/3701716.3715871" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
                     [Paper]
