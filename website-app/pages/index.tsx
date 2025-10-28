@@ -56,6 +56,12 @@ const Home = () => {
               <ul className="text-black dark:text-white space-y-4">
                 <li className="flex flex-col">
                   <div className="flex items-center">
+                    <span className="text-sm font-medium text-gray-500 dark:text-gray-400 mr-3">10/06/2025</span>
+                    <span className="font-semibold">&quot;WebGraphEval: Multi-Turn Trajectory Evaluation for Web Agents using Graph Representation&quot; was accepted by MTI-LLM @ NeurIPS 2025 workshop.</span>
+                  </div>
+                </li>
+                <li className="flex flex-col">
+                  <div className="flex items-center">
                     <span className="text-sm font-medium text-gray-500 dark:text-gray-400 mr-3">08/01/2025</span>
                     <span className="font-semibold">PathOnAI.org is officially a 501(c)(3) nonprofit organization.</span>
                   </div>

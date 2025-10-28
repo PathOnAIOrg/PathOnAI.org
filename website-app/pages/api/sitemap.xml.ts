@@ -5,7 +5,7 @@ const EXTERNAL_DATA_URL = 'https://pathonai.org';
 const generateSiteMap = () => {
   const pages = [
     '',
-    '/projects',
+    '/ai-agent-projects',
     '/services',
     '/privacy-policy',
     '/services/professional-development',

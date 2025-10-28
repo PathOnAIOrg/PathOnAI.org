@@ -24,6 +24,22 @@ const Projects = () => {
             <ul className="text-black dark:text-white space-y-4">
               <li className="flex flex-col">
                 <div className="flex items-center">
+                  <span className="font-semibold">WebGraphEval: Multi-Turn Trajectory Evaluation for Web Agents using Graph Representation</span>
+                  <a href="https://arxiv.org/abs/2510.19205" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                    [Paper]
+                  </a>
+                </div>
+                <div className="text-gray-600 dark:text-gray-300">
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold">Yaoyao Qian</span>,
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Yuanli Wang</span>,
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Jinda Zhang</span>,
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Yun Zong</span>, Meixu Chen, Hanhan Zhou, Jindan Huang, Yifan Zeng, Xinyu Hu, Chan Hee Song,
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Danqing Zhang</span>
+                </div>
+                <div className="text-gray-600 dark:text-gray-300 italic">MTI-LLM @ NeurIPS 2025 Poster</div>
+              </li>
+              <li className="flex flex-col">
+                <div className="flex items-center">
                   <span className="font-semibold">VisualTreeSearch: Understanding Web Agent Test-time Scaling</span>
                   <a href="https://www.researchgate.net/profile/Danqing-Zhang/publication/391739859_VisualTreeSearch_Understanding_Web_Agent_Test-time_Scaling/links/6825449bdf0e3f544f54797b/VisualTreeSearch-Understanding-Web-Agent-Test-time-Scaling.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
                     [Paper]
