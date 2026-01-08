@@ -29,7 +29,7 @@ const Robotics = () => {
           Robotics & Embodied AI 🤖
         </h1>
         <p className="leading-7 mb-12 text-black dark:text-white max-w-3xl text-center">
-          Open-source research with low cost robots like so-arm100 and Lekiwi.
+          Open-source research with low cost robots.
         </p>
         
         <div className="w-full max-w-4xl space-y-8">
@@ -40,7 +40,7 @@ const Robotics = () => {
               <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Research Focus</h2>
               <div className="text-gray-700 dark:text-gray-300 space-y-4">
                 <p>
-                  We focus on open-source research with low cost robots like so-arm100 and Lekiwi.
+                  We focus on open-source research with low cost robots.
                 </p>
                 <p>
                   We aim to lower the barrier of entry for beginners and hobbyists to get started with robotics and embodied AI.
@@ -49,6 +49,71 @@ const Robotics = () => {
             </CardContent>
           </Card>
 
+          {/* Current Projects */}
+          <Card className="border-2 border-blue-200 dark:border-blue-900 shadow-lg hover:shadow-xl transition-shadow">
+            <CardContent className="p-6">
+              <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Current Projects</h2>
+              <ul className="text-black dark:text-white space-y-4">
+                <li className="flex flex-col">
+                  <div className="flex items-center">
+                    <span className="text-xl mr-2">🤖</span>
+                    <span className="font-semibold text-lg">Vision-Language Grasping with SAM2 and GraspNet</span>
+                    <a href="https://github.com/PathOnAIOrg/sam3_graspnet" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                      [GitHub]
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-300 ml-7">
+                    Integrating SAM2 (Segment Anything Model) with GraspNet for vision-language guided robotic grasping. This project enables robots to understand natural language commands and perform intelligent object manipulation in real-world scenarios.
+                  </div>
+                </li>
+                <li className="flex flex-col">
+                  <div className="flex items-center">
+                    <span className="text-xl mr-2">📚</span>
+                    <span className="font-semibold text-lg">Awesome Open-Source Robots</span>
+                    <a href="https://github.com/PathOnAIOrg/awesome-opensource-robots" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                      [GitHub]
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-300 ml-7">
+                    A comprehensive curated list of open-source robot platforms with references to CAD files, ROS2 drivers, and Mujoco simulation configurations. This resource helps researchers and hobbyists find and build affordable robotic systems for embodied AI research.
+                  </div>
+                </li>
+              </ul>
+            </CardContent>
+          </Card>
+
+                    {/* Past Projects */}
+                    <Card className="border-2 border-green-200 dark:border-green-900 shadow-lg hover:shadow-xl transition-shadow">
+            <CardContent className="p-6">
+              <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Past Projects</h2>
+              <ul className="text-black dark:text-white space-y-4">
+                <li className="flex flex-col">
+                  <div className="flex items-center">
+                    <span className="text-xl mr-2">🎮</span>
+                    <span className="font-semibold text-lg">3D Embodied Agent for Roblox</span>
+                    <a href="https://github.com/PathOnAI/roblox-game-ai-backend" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                      [GitHub]
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-300 ml-7">
+                    Developed intelligent agents that can navigate and interact within Roblox game environments, serving as a testbed for embodied AI research in virtual 3D worlds.
+                  </div>
+                </li>
+                <li className="flex flex-col">
+                  <div className="flex items-center">
+                    <span className="text-xl mr-2">📚</span>
+                    <span className="font-semibold text-lg">Awesome 3D Embodied AI</span>
+                    <a href="https://github.com/PathOnAI/awesome-3d-embodied-ai" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                      [GitHub]
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-300 ml-7">
+                    Curated list of resources for 3D embodied AI research and development.
+                  </div>
+                </li>
+              </ul>
+            </CardContent>
+          </Card>
 
           {/* Hardware & Tools */}
           <Card className="border-2 border-orange-200 dark:border-orange-900 shadow-lg hover:shadow-xl transition-shadow">
@@ -63,7 +128,7 @@ const Robotics = () => {
                   1800 Easton Dr, Burlingame, CA 94010
                 </p>
               </div>
-              
+
               <ul className="text-black dark:text-white space-y-4">
                 <li className="flex flex-col">
                   <div className="flex items-center">
@@ -115,16 +180,16 @@ const Robotics = () => {
                 </li>
               </ul>
               <div className="mt-6 text-center">
-                <a 
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdfJsHlU44ozciuyHnlvO6hHdetvFOOkPFW6AbGYKrj3XgQZQ/viewform" 
-                  target="_blank" 
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdfJsHlU44ozciuyHnlvO6hHdetvFOOkPFW6AbGYKrj3XgQZQ/viewform"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-6 py-3 bg-orange-600 text-white rounded-md hover:bg-orange-700 transition-colors text-lg font-medium"
                 >
                   🖨️ Sign Up for 3D Printing
                 </a>
               </div>
-              
+
               {/* 3D Printing Service Policy */}
               <div className="mt-6 p-4 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg">
                 <h3 className="text-lg font-semibold mb-3 text-blue-800 dark:text-blue-300">3D Printing Service Policy</h3>
@@ -136,39 +201,6 @@ const Robotics = () => {
                   <li>• Each community member is limited to &lt;30g per month</li>
                 </ul>
               </div>
-            </CardContent>
-          </Card>
-
-                    {/* Past Projects */}
-                    <Card className="border-2 border-green-200 dark:border-green-900 shadow-lg hover:shadow-xl transition-shadow">
-            <CardContent className="p-6">
-              <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Past Projects</h2>
-              <ul className="text-black dark:text-white space-y-4">
-                <li className="flex flex-col">
-                  <div className="flex items-center">
-                    <span className="text-xl mr-2">🎮</span>
-                    <span className="font-semibold text-lg">3D Embodied Agent for Roblox</span>
-                    <a href="https://github.com/PathOnAI/roblox-game-ai-backend" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
-                      [GitHub]
-                    </a>
-                  </div>
-                  <div className="text-gray-600 dark:text-gray-300 ml-7">
-                    Developed intelligent agents that can navigate and interact within Roblox game environments, serving as a testbed for embodied AI research in virtual 3D worlds.
-                  </div>
-                </li>
-                <li className="flex flex-col">
-                  <div className="flex items-center">
-                    <span className="text-xl mr-2">📚</span>
-                    <span className="font-semibold text-lg">Awesome 3D Embodied AI</span>
-                    <a href="https://github.com/PathOnAI/awesome-3d-embodied-ai" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
-                      [GitHub]
-                    </a>
-                  </div>
-                  <div className="text-gray-600 dark:text-gray-300 ml-7">
-                    Curated list of resources for 3D embodied AI research and development.
-                  </div>
-                </li>
-              </ul>
             </CardContent>
           </Card>
 
