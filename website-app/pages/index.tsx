@@ -55,6 +55,25 @@ const Home = () => {
               <h2 className="text-2xl font-bold mb-4 text-black dark:text-white border-b pb-2">Latest News</h2>
               <ul className="text-black dark:text-white space-y-4">
                 <li className="flex flex-col">
+                  <div className="flex items-start gap-2">
+                    <span className="text-sm font-medium text-gray-500 dark:text-gray-400 mr-1 whitespace-nowrap">01/07/2026</span>
+                    <div>
+                      <span className="font-semibold text-purple-700 dark:text-purple-400">🎉 PathOnAI.org: 2025 Year in Review</span>
+                      <p className="text-gray-600 dark:text-gray-300 text-sm mt-1">
+                        A year of open collaboration: 4 research papers published (WWW, NAACL, ECML-PKDD, NeurIPS), won 2025 SF Bay Area LeRobot Hackathon, became 501(c)(3) nonprofit, and grew to 170+ Discord members with 100+ GitHub stars across projects.
+                      </p>
+                      <a
+                        href="https://www.linkedin.com/feed/update/urn:li:activity:7414605416506245120/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 dark:text-blue-400 hover:underline text-sm mt-1 inline-block"
+                      >
+                        Read more on LinkedIn →
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li className="flex flex-col">
                   <div className="flex items-center">
                     <span className="text-sm font-medium text-gray-500 dark:text-gray-400 mr-3">10/06/2025</span>
                     <span className="font-semibold">&quot;WebGraphEval: Multi-Turn Trajectory Evaluation for Web Agents using Graph Representation&quot; was accepted by MTI-LLM @ NeurIPS 2025 workshop.</span>
@@ -167,55 +186,12 @@ const Home = () => {
                 </div>
               </div>
 
-              {/* Project Leads */}
-              <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-purple-700 dark:text-purple-300">President</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">
-                      <a
-                        href="https://h-freax.github.io/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Yaoyao Qian
-                      </a>
-                    </p>
-                    <p className="text-sm">President</p>
-                  </div>
-                </div>
-              </div>
-
               {/* Researchers & Collaborators */}
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-purple-700 dark:text-purple-300">Researchers & Collaborators</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">
-                      <a
-                        href="https://pentium3.github.io/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Yuanli Wang
-                      </a>
-                    </p>
-                    <p className="text-sm">Researcher</p>
-                  </div>
-                  <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Jingyi Ni</p>
-                    <p className="text-sm">Researcher</p>
-                  </div>
-                  <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">
-                      <a
-                        href="https://jindanh.github.io/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Jindan Huang
-                      </a>
-                    </p>
                     <p className="text-sm">Researcher</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
@@ -235,39 +211,12 @@ const Home = () => {
                     <p className="text-sm">Researcher</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Meixu Chen</p>
-                    <p className="text-sm">Collaborator</p>
-                  </div>
-                  <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Yifan Zeng</p>
-                    <p className="text-sm">Collaborator</p>
+                    <p className="font-semibold">Chenghao Wang</p>
+                    <p className="text-sm">Researcher</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Junyu Cao</p>
                     <p className="text-sm">Collaborator</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Contributors */}
-              <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-purple-700 dark:text-purple-300">Contributors</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Arnold Chen</p>
-                    <p className="text-sm">Contributor</p>
-                  </div>
-                  <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Andrew Liang</p>
-                    <p className="text-sm">Contributor</p>
-                  </div>
-                  <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Jiaxun Hao</p>
-                    <p className="text-sm">Contributor</p>
-                  </div>
-                  <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Zixun Zhang</p>
-                    <p className="text-sm">Contributor</p>
                   </div>
                 </div>
               </div>
@@ -308,6 +257,34 @@ const Home = () => {
                     <p className="font-semibold">Nazifa Mouli</p>
                     <p className="text-sm">Member</p>
                   </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Noah Gruenert</p>
+                    <p className="text-sm">Member</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Akshay Syal</p>
+                    <p className="text-sm">Member</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Sri Harsha Mittapalli</p>
+                    <p className="text-sm">Member</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Darshan Rahul Rajopadhye</p>
+                    <p className="text-sm">Member</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Rushi Chaudhari</p>
+                    <p className="text-sm">Member</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Arnold Chen</p>
+                    <p className="text-sm">Contributor</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Jiaxun Hao</p>
+                    <p className="text-sm">Contributor</p>
+                  </div>
                 </div>
               </div>
 
@@ -316,20 +293,81 @@ const Home = () => {
                 <h3 className="text-xl font-semibold mb-3 text-purple-700 dark:text-purple-300">Alumni</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">
+                      <a
+                        href="https://h-freax.github.io/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Yaoyao Qian
+                      </a>
+                    </p>
+                    <p className="text-sm">Former President</p>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">WebGraphEval, VisualTreeSearch</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">
+                      <a
+                        href="https://pentium3.github.io/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Yuanli Wang
+                      </a>
+                    </p>
+                    <p className="text-sm">Researcher</p>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">WebGraphEval, VisualTreeSearch</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">
+                      <a
+                        href="https://jindanh.github.io/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Jindan Huang
+                      </a>
+                    </p>
+                    <p className="text-sm">Researcher</p>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">WebGraphEval</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Meixu Chen</p>
+                    <p className="text-sm">Collaborator</p>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">WebGraphEval</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Yifan Zeng</p>
+                    <p className="text-sm">Collaborator</p>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">WebGraphEval</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Balaji Rama</p>
                     <p className="text-sm">Full Stack Developer</p>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">LiteWebAgent</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Kunyu Chen</p>
                     <p className="text-sm">Frontend Developer</p>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">LiteWebAgent</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Fu Zhao</p>
                     <p className="text-sm">Researcher</p>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">LiteWebAgent</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Shiying He</p>
                     <p className="text-sm">Researcher</p>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">VisualTreeSearch, LiteWebAgent</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Andrew Liang</p>
+                    <p className="text-sm">Contributor</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Zixun Zhang</p>
+                    <p className="text-sm">Contributor</p>
                   </div>
                 </div>
               </div>
