@@ -215,7 +215,15 @@ const Home = () => {
                     <p className="text-sm">Researcher</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Junyu Cao</p>
+                    <p className="font-semibold">
+                      <a
+                        href="https://junyucao.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Junyu Cao
+                      </a>
+                    </p>
                     <p className="text-sm">Collaborator</p>
                   </div>
                 </div>
@@ -337,7 +345,15 @@ const Home = () => {
                     <p className="text-xs text-gray-500 dark:text-gray-400">WebGraphEval</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Yifan Zeng</p>
+                    <p className="font-semibold">
+                      <a
+                        href="https://xhmy.github.io/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Yifan Zeng
+                      </a>
+                    </p>
                     <p className="text-sm">Collaborator</p>
                     <p className="text-xs text-gray-500 dark:text-gray-400">WebGraphEval</p>
                   </div>

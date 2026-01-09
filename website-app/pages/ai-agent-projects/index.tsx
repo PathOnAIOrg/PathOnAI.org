@@ -46,11 +46,11 @@ const Projects = () => {
                   </a>
                 </div>
                 <div className="text-gray-600 dark:text-gray-300">
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold">Danqing Zhang</span>, 
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Yaoyao Qian</span>, 
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Shiying He</span>, 
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Yuanli Wang</span>, 
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Jingyi Ni</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold">Danqing Zhang</span>,
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Yaoyao Qian</span>,
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Shiying He</span>,
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Yuanli Wang</span>,
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Jingyi Ni</span>,
                   <span className="text-purple-700 dark:text-purple-400 font-semibold"> Junyu Cao</span>
                 </div>
                 <div className="text-gray-600 dark:text-gray-300 italic">ECML-PKDD&apos;25: 2025 European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases Demo Track</div>
@@ -73,13 +73,13 @@ const Projects = () => {
                   </a>
                 </div>
                 <div className="text-gray-600 dark:text-gray-300">
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold">Danqing Zhang</span>, 
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Balaji Rama</span>, 
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Jingyi Ni</span>, 
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Shiying He</span>, 
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Fu Zhao</span>, 
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Kunyu Chen</span>, 
-                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Arnold Chen</span>, 
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold">Danqing Zhang</span>,
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Balaji Rama</span>,
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Jingyi Ni</span>,
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Shiying He</span>,
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Fu Zhao</span>,
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Kunyu Chen</span>,
+                  <span className="text-purple-700 dark:text-purple-400 font-semibold"> Arnold Chen</span>,
                   <span className="text-purple-700 dark:text-purple-400 font-semibold"> Junyu Cao</span>
                 </div>
                 <div className="text-gray-600 dark:text-gray-300 italic">NAACL&apos;25: 2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics -- System Demonstration Track</div>
