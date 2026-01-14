@@ -180,21 +180,17 @@ const Header = () => {
           </div>
           
           {mounted && (
-            <div className="mr-5">
+            <button
+              onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+              className="mr-5 p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+              aria-label="Toggle theme"
+            >
               {theme === "dark" ? (
-                <HiSun 
-                  className="w-6 h-6 text-yellow-500" 
-                  role="button" 
-                  onClick={() => setTheme('light')} 
-                />
+                <HiSun className="w-6 h-6 text-yellow-500" />
               ) : (
-                <HiMoon 
-                  className="w-6 h-6 text-gray-900" 
-                  role="button" 
-                  onClick={() => setTheme('dark')} 
-                />
+                <HiMoon className="w-6 h-6 text-gray-900 dark:text-gray-100" />
               )}
-            </div>
+            </button>
           )}
           <div className="md:hidden">
             <button
