@@ -311,7 +311,7 @@ const Home = () => {
                       </a>
                     </p>
                     <p className="text-sm">Former President</p>
-                    <p className="text-xs text-gray-500 dark:text-gray-400">WebGraphEval, VisualTreeSearch</p>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">WebGraphEval, VisualTreeSearch, Zero-Shot Grasping</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">
@@ -337,7 +337,7 @@ const Home = () => {
                       </a>
                     </p>
                     <p className="text-sm">Researcher</p>
-                    <p className="text-xs text-gray-500 dark:text-gray-400">WebGraphEval</p>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">WebGraphEval, Zero-Shot Grasping</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Meixu Chen</p>
