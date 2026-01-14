@@ -56,6 +56,25 @@ const Home = () => {
               <ul className="text-black dark:text-white space-y-4">
                 <li className="flex flex-col">
                   <div className="flex items-start gap-2">
+                    <span className="text-sm font-medium text-gray-500 dark:text-gray-400 mr-1 whitespace-nowrap">01/13/2026</span>
+                    <div>
+                      <span className="font-semibold">Open-sourced early zero-shot grasping development work on GitHub.</span>
+                      <p className="text-gray-600 dark:text-gray-300 text-sm mt-1">
+                        Released initial exploration work from PathOnAI.org contributors. This archived repository contains early experimental code with many unverified components. A cleaned, fully workable version with verified functionality will be released in the coming months.
+                      </p>
+                      <a
+                        href="https://github.com/PathOnAIOrg/zeroshot_grasping_dev"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 dark:text-blue-400 hover:underline text-sm mt-1 inline-block"
+                      >
+                        View repository →
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li className="flex flex-col">
+                  <div className="flex items-start gap-2">
                     <span className="text-sm font-medium text-gray-500 dark:text-gray-400 mr-1 whitespace-nowrap">01/07/2026</span>
                     <div>
                       <span className="font-semibold text-purple-700 dark:text-purple-400">🎉 PathOnAI.org: 2025 Year in Review</span>
