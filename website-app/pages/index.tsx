@@ -293,6 +293,14 @@ const Home = () => {
                     <p className="font-semibold">Jiaxun Hao</p>
                     <p className="text-sm">Contributor</p>
                   </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Gowtham Parasuraman</p>
+                    <p className="text-sm">Robotics Engineer</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Nona Wei</p>
+                    <p className="text-sm">Researcher</p>
+                  </div>
                 </div>
               </div>
 
