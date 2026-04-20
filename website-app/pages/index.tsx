@@ -56,6 +56,25 @@ const Home = () => {
               <ul className="text-black dark:text-white space-y-4">
                 <li className="flex flex-col">
                   <div className="flex items-start gap-2">
+                    <span className="text-sm font-medium text-gray-500 dark:text-gray-400 mr-1 whitespace-nowrap">04/07/2026</span>
+                    <div>
+                      <span className="font-semibold">Open-sourced SO-101 6DoF wrist + symmetric gripper hardware with <a href="https://www.pathon.ai/" target="_blank" rel="noopener noreferrer" className="text-green-600 dark:text-green-400 hover:underline">PathOn Robotics</a>.</span>
+                      <p className="text-gray-600 dark:text-gray-300 text-sm mt-1">
+                        Fully open-sourced hardware — reproduce it end-to-end: STL + STEP files for every 3D-printed part (6DoF wrist + gripper), complete Bill of Materials, and step-by-step assembly guide with print orientation diagrams.
+                      </p>
+                      <a
+                        href="https://github.com/PathOn-AI/pathon_opensource/tree/main/so101_6dof_symmetric_gripper"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 dark:text-blue-400 hover:underline text-sm mt-1 inline-block"
+                      >
+                        View repository →
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li className="flex flex-col">
+                  <div className="flex items-start gap-2">
                     <span className="text-sm font-medium text-gray-500 dark:text-gray-400 mr-1 whitespace-nowrap">01/13/2026</span>
                     <div>
                       <span className="font-semibold">Open-sourced early zero-shot grasping development work on GitHub.</span>
@@ -257,6 +276,22 @@ const Home = () => {
                     <p className="font-semibold">Max L</p>
                     <p className="text-sm">Robotics Engineer</p>
                   </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Shyam Ganatra</p>
+                    <p className="text-sm">Robotics Engineer</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Sampreeth Radha Krishna</p>
+                    <p className="text-sm">Robotics Engineer</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Aayush Gupta</p>
+                    <p className="text-sm">Researcher</p>
+                  </div>
+                  <div className="text-gray-700 dark:text-gray-300">
+                    <p className="font-semibold">Nahid Alam</p>
+                    <p className="text-sm">Researcher</p>
+                  </div>
                 </div>
               </div>
 
@@ -286,10 +321,6 @@ const Home = () => {
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
                     <p className="font-semibold">Da Kuang</p>
-                    <p className="text-sm">Member</p>
-                  </div>
-                  <div className="text-gray-700 dark:text-gray-300">
-                    <p className="font-semibold">Aayush Gupta</p>
                     <p className="text-sm">Member</p>
                   </div>
                   <div className="text-gray-700 dark:text-gray-300">
