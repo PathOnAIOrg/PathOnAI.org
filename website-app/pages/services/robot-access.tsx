@@ -126,14 +126,26 @@ const RobotAccess = () => {
                 </li>
                 <li className="flex flex-col">
                   <div className="flex items-center">
-                    <span className="text-xl mr-2">🚶</span>
-                    <span className="font-semibold text-lg">Hightorque Bipedal Robot Mini π</span>
-                    <a href="https://store.hightorque.cn/products/bipedal-robot-mini-%CF%80" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                    <span className="text-xl mr-2">🐕</span>
+                    <span className="font-semibold text-lg">Unitree Go2 Air</span>
+                    <a href="https://www.unitree.com/go2" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
                       [Store]
                     </a>
                   </div>
                   <div className="text-gray-600 dark:text-gray-300 ml-7">
-                    Advanced bipedal robot platform for walking gait research and humanoid robotics development.
+                    Quadruped robot platform for locomotion research, perception, and embodied AI experiments in dynamic environments.
+                  </div>
+                </li>
+                <li className="flex flex-col">
+                  <div className="flex items-center">
+                    <span className="text-xl mr-2">🤖</span>
+                    <span className="font-semibold text-lg">Booster Robotics K1 Geek</span>
+                    <a href="https://www.booster.tech/booster-k1/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline ml-2">
+                      [Store]
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-300 ml-7">
+                    Humanoid robot platform for whole-body control, bipedal locomotion, and humanoid AI research.
                   </div>
                 </li>
               </ul>
